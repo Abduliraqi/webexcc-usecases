@@ -11,21 +11,15 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 
 ## Lab Content
 
-| Lab ID |                         Lab Details                         | Dificulty | Estimated |
+| Lab ID |                         Lab Details                         |
 |:------:|:-----------------------------------------------------------:|:---------:|:---------:|
-| Lab 0  |                          [Automotive](/pages/Provisioning/) |   EASY    |  40 min   |
-| Lab 1  |                   [Credit Limit](/pages/CH/)                |   EASY    |  30 min   |
-| Lab 2  |                  [Appointment managment](/pages/IVR/)       |    MID    |  60 min   |
-| Lab 3  |               [Retail](/pages/Agent/)                       |   MID    |  55 min   |
-| Lab 4  |          [Agent Handover](/pages/Supervisor/)           |   EASY    |  40 min   |
-| Lab 5  |           [Analyzer Deep Dive](/pages/Analyzer/)            |    MID    |  120 min   |
-| Lab 6  |               [CRM Integration](/pages/CRM/)                |   HARD    |  90 min   |
-| Lab 7  |        [Google CCAI & TTS Integration](/pages/CCAI/)        |   MID    |  90 min   |
-| Lab 8  |             [Webex Experience Management](/pages/WxM/)             |    EASY    |  30 min   |
-| Lab 9  |       [Outbound Campaign - Acqueon](/pages/Acqueon/)        |    MID    |  30 min   |
-| Lab 10 |            [QM/WFO - Calabrio](/pages/Calabrio/)            |    TBD    |  TBD  |
-| Lab 11 |                [Webex CC APIs](/pages/API/)                 |   HARD    |  90 min   |
-| Lab 12 |             [Digital Channels](/pages/Digital/)             |    MID    |  560 min  |
+| Demo 01  |                     [Automotive](/pages/Provisioning/) |   EASY    |  40 min   |
+| Demo 02  |                   [Finance](/pages/CH/)                |   EASY    |  30 min   |
+| Demo 03  |                  [Appointment managment](/pages/IVR/)       |    MID    |  60 min   |
+| Demo 04  |               [Retail](/pages/Agent/)                       |   MID    |  55 min   |
+|  Demo 05  |          [Insurance](/pages/Supervisor/)           |   EASY    |  40 min   |
+|  Demo 06  |           [Chat to Agent](/pages/Analyzer/)            |    MID    |  120 min   |
+
 
 
 
