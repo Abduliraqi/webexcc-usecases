@@ -1,12 +1,12 @@
 ---
 layout: home
-title: 'Webex CC Lab guides'
+title: 'Webex CC Use Cases'
 permalink: /
 cover: /assets/gitbook/images/Home.jpeg
 ---
 
 
-Welcome to the Webex Labs Repository. Here you will find step-by-step guides on how to enable and configure the Webex Contact Center features.
+Welcome to the Webex Use Case Repository. Here you will find step-by-step guides on how use the Use Cases the Webex Contact Center features.
 
 
 ## Lab Content
