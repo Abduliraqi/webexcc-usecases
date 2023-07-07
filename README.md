@@ -13,11 +13,11 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 
 | Lab ID |                         Lab Details                         | Dificulty | Estimated |
 |:------:|:-----------------------------------------------------------:|:---------:|:---------:|
-| Lab 0  | [Demo use case Nr1 ](/pages/Provisioning/) |   EASY    |  40 min   |
-| Lab 1  |               [Admin Experience](/pages/CH/)                |   EASY    |  30 min   |
-| Lab 2  |             [IVR Contact Routing](/pages/IVR/)              |    MID    |  60 min   |
-| Lab 3  |               [Agent Desktop](/pages/Agent/)                |   MID    |  55 min   |
-| Lab 4  |          [Supervisor Desktop](/pages/Supervisor/)           |   EASY    |  40 min   |
+| Lab 0  |                          [Automotive](/pages/Provisioning/) |   EASY    |  40 min   |
+| Lab 1  |                   [Credit Limit](/pages/CH/)                |   EASY    |  30 min   |
+| Lab 2  |                  [Appointment managment](/pages/IVR/)       |    MID    |  60 min   |
+| Lab 3  |               [Retail](/pages/Agent/)                       |   MID    |  55 min   |
+| Lab 4  |          [Agent Handover](/pages/Supervisor/)           |   EASY    |  40 min   |
 | Lab 5  |           [Analyzer Deep Dive](/pages/Analyzer/)            |    MID    |  120 min   |
 | Lab 6  |               [CRM Integration](/pages/CRM/)                |   HARD    |  90 min   |
 | Lab 7  |        [Google CCAI & TTS Integration](/pages/CCAI/)        |   MID    |  90 min   |
