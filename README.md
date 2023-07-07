@@ -13,7 +13,7 @@ Welcome to the Webex Labs Repository. Here you will find step-by-step guides on 
 
 | Lab ID |                         Lab Details                         | Dificulty | Estimated |
 |:------:|:-----------------------------------------------------------:|:---------:|:---------:|
-| Lab 0  | [Provisioning (Trials & Production) ](/pages/Provisioning/) |   EASY    |  40 min   |
+| Lab 0  | [Demo use case Nr1 ](/pages/Provisioning/) |   EASY    |  40 min   |
 | Lab 1  |               [Admin Experience](/pages/CH/)                |   EASY    |  30 min   |
 | Lab 2  |             [IVR Contact Routing](/pages/IVR/)              |    MID    |  60 min   |
 | Lab 3  |               [Agent Desktop](/pages/Agent/)                |   MID    |  55 min   |
