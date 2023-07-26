@@ -13,7 +13,7 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 
 | Lab ID |                         Lab Details                         | Dificulty | Estimated |
 |:------:|:-----------------------------------------------------------:|:---------:|:---------:|
-| Lab 0  | [Finance](/pages/Provisioning/) |   EASY    |  40 min   |
+| Lab 0  | [Finance](/pages/Template/) |   EASY    |  40 min   |
 | Lab 0  |                          [Automotive](/pages/Provisioning/) |   EASY    |  40 min   |
 | Lab 1  |                   [Credit Limit](/pages/CH/)                |   EASY    |  30 min   |
 | Lab 2  |                  [Appointment managment](/pages/IVR/)       |    MID    |  60 min   |

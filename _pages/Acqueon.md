@@ -1,6 +1,6 @@
 ---
-title: Lab 9 - Outbound Campaign
-author: Gagarin Sathiyanarayanan
+title: Use Case Template
+author: Webex CC TSA
 date: 2022-09-09
 layout: post
 ---
