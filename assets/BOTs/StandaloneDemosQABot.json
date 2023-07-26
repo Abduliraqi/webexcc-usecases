@@ -1,0 +1,2837 @@
+{
+	"sections": [
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Help",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"facebook": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "order update",
+														"title": "Order Update"
+													},
+													{
+														"content_type": "text",
+														"payload": "find nearest store",
+														"title": "Find Nearest Store"
+													},
+													{
+														"content_type": "text",
+														"payload": "talk to an agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Hello, I'm the Virtual Assistant! How can I help you today?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"sms": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "order update",
+														"title": "Order Update"
+													},
+													{
+														"content_type": "text",
+														"payload": "find nearest store",
+														"title": "Find Nearest Store"
+													},
+													{
+														"content_type": "text",
+														"payload": "talk to an agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Hello, I'm the Virtual Assistant! How can I help you today?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "order update",
+														"title": "Order Update"
+													},
+													{
+														"content_type": "text",
+														"payload": "find nearest store",
+														"title": "Find Nearest Store"
+													},
+													{
+														"content_type": "text",
+														"payload": "talk to an agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Hello, I'm the Virtual Assistant! How can I help you today?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Order Update",
+														"title": "Order Update"
+													},
+													{
+														"content_type": "text",
+														"payload": "Find Nearest Store",
+														"title": "Find Nearest Store"
+													},
+													{
+														"content_type": "text",
+														"payload": "Chat to an Agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Hello, I'm the Virtual Assistant! How can I help you today?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Help",
+						"This is a test retail flow",
+						"Start a conversation with Webex",
+						"Start conversation with Webex",
+						"Start Conversation",
+						"Virtual Assistant",
+						"Hello there",
+						"Ahoy",
+						"Hey pal",
+						"Greetings and salutations",
+						"G'day",
+						"Good day",
+						"Heya",
+						"Well hey there",
+						"Yo dude",
+						"Hey-hey",
+						"Hi there!",
+						"Hiya",
+						"Howdy",
+						"evenin",
+						"Good evening",
+						"Good morning sunshine",
+						"Mornin'",
+						"Good morning",
+						"Good night",
+						"G'night",
+						"Sweet dreams",
+						"Nighty night"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Smalltalk"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Order Update",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"facebook": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "goodbye",
+														"title": "I'm Done"
+													},
+													{
+														"content_type": "text",
+														"payload": "find nearest store",
+														"title": "Find Nearest Store"
+													},
+													{
+														"content_type": "text",
+														"payload": "talk to an agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Good news! Your order (Ref: 012653752) has been dispatched and will be with you tomorrow before 6:30pm. For tracking information click on this link https://trackmyorder.com/012653752.\n\nWould you like anything else?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"sms": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "goodbye",
+														"title": "I'm done"
+													},
+													{
+														"content_type": "text",
+														"payload": "find nearest store",
+														"title": "Find Nearest Store"
+													},
+													{
+														"content_type": "text",
+														"payload": "talk to an agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Good news! Your order (Ref: 012653752) has been dispatched and will be with you tomorrow before 6:30pm. For tracking information click on this link https://trackmyorder.com/012653752.\n\nWould you like anything else?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "goodbye",
+														"title": "I'm Done"
+													},
+													{
+														"content_type": "text",
+														"payload": "find nearest store",
+														"title": "Find Nearest Store"
+													},
+													{
+														"content_type": "text",
+														"payload": "talk to an agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Good news! Your order (Ref: 012653752) has been dispatched and will be with you tomorrow before 6:30pm. For tracking information click on this link https://trackmyorder.com/012653752.\n\nWould you like anything else?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "I'm Done",
+														"title": "I'm Done"
+													},
+													{
+														"content_type": "text",
+														"payload": "Find Nearest Store",
+														"title": "Find Nearest Store"
+													},
+													{
+														"content_type": "text",
+														"payload": "Chat to an Agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Good news! Your order (Ref: 012653752) has been dispatched and will be with you tomorrow before 6:30pm. For tracking information click on this link https://trackmyorder.com/012653752.\n\nWould you like anything else?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Order Update",
+						"status of order"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Smalltalk"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Find Nearest Store",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"facebook": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "goodbye",
+														"title": "I'm Done"
+													},
+													{
+														"content_type": "text",
+														"payload": "order update",
+														"title": "Order Update"
+													},
+													{
+														"content_type": "text",
+														"payload": "talk to an agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Ok, no problem.  We can see from our records that your nearest store is \n\nCisco Systems UK, Bedfont Lakes.\n\nHere is a link to a map map to help you find it:\n\nhttps://www.google.com/maps/place/Cisco+Systems+UK/@51.4460297,-0.4462815,17z/data=!3m1!4b1!4m5!3m4!1s0x4876f4f77ac12f17:0xeaa620f8c828a75d!8m2!3d51.4460297!4d-0.4440928\n\nIs there anything else I can help you with?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"sms": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "goodbye",
+														"title": "I'm Done"
+													},
+													{
+														"content_type": "text",
+														"payload": "order update",
+														"title": "Order Update"
+													},
+													{
+														"content_type": "text",
+														"payload": "talk to an agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Ok, no problem.  We can see from your records that your nearest store is \n\n15 High Street Woking, GU51 1AB\n\nIs there anything else I can help you with?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "goodbye",
+														"title": "I'm Done"
+													},
+													{
+														"content_type": "text",
+														"payload": "order update",
+														"title": "Order Update"
+													},
+													{
+														"content_type": "text",
+														"payload": "talk to an agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Ok, no problem.  We can see from our records that your nearest store is \n\nCisco Systems UK, Bedfont Lakes.\n\nHere is a link to a map map to help you find it:\n\nhttps://www.google.com/maps/place/Cisco+Systems+UK/@51.4460297,-0.4462815,17z/data=!3m1!4b1!4m5!3m4!1s0x4876f4f77ac12f17:0xeaa620f8c828a75d!8m2!3d51.4460297!4d-0.4440928\n\nIs there anything else I can help you with?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "I'm Done",
+														"title": "I'm Done"
+													},
+													{
+														"content_type": "text",
+														"payload": "Order Update",
+														"title": "Order Update"
+													},
+													{
+														"content_type": "text",
+														"payload": "Chat to an Agent",
+														"title": "Chat to an Agent"
+													}
+												],
+												"text": "Ok, no problem.  We can see from your records that your nearest store is \n\n15 High Street Woking, GU51 1AB\n\nIs there anything else I can help you with?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Find Nearest Store"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Smalltalk"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Goodbye",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Goodbye and take care!"
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Goodbye",
+						"I'll Call",
+						"I'm Done",
+						"Adieu",
+						"Adios",
+						"Bye",
+						"Good bye",
+						"Catch you later",
+						"G2G",
+						"Ciao",
+						"CYA",
+						"C-ya",
+						"Fare thee well",
+						"Catch ya later",
+						"gotta go",
+						"See you later",
+						"See ya later"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Smalltalk"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Call Me",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Ok, no problem. You'll get a call back as soon as someone is available."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Ok, no problem. You'll get a call back as soon as someone is available."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Call Me",
+						"please call me",
+						"call me",
+						"Call Me"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Smalltalk"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "That was unhelpful",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Sorry,  I hear that wasn't able to help you. Please try asking a different question."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"That was unhelpful",
+						"That's inaccurate",
+						"That was a terrible answer",
+						"That wasn't true",
+						"Not what I asked",
+						"That's not a good answer",
+						"That's not relevant",
+						"Not true",
+						"Not even close",
+						"That was a stupid answer",
+						"Inaccurate",
+						"FALSE",
+						"That's wrong",
+						"Answers are not very good",
+						"Answers are irrelevant",
+						"Responses aren't relevant",
+						"Responses are untrue",
+						"Responses are dumb",
+						"Responses are stupid",
+						"Didn't answer my question",
+						"Wrong answer",
+						"Explain yourself",
+						"I'm confused",
+						"I don't understand",
+						"I don't get it",
+						"That made no sense",
+						"That didn't make sense",
+						"You are confusing me"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Smalltalk"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Thank you",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"You're welcome, take care!"
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Thank you",
+						"Many thanks",
+						"Kthx",
+						"I appreciate that",
+						"Thx",
+						"Thnx",
+						"Thanks bot",
+						"Thanks a lot",
+						"Thank you",
+						"Thanks"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Smalltalk"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "LIMIT",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Hello! I'm your virtual asistant.  I'm going to see if I can increase your credit limit.  Before I do I have some security questions.  First, please enter the 3 numbers on the back of your card ending 4321."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Hello! I'm your virtual asistant.  I'm going to see if I can increase your credit limit.  Before I do I have some security questions.  First, please enter the 3 numbers on the back of your card ending 4321."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"LIMIT",
+						"AbdulDemoLimit",
+						"Limit",
+						"limit",
+						"LIMIT"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "POSTCODE",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"That's great. You've passed the security check. I'm now going to see what I can do about your credit limit. This can take up to 2 minutes, so hang on and I'll get back to . . ."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"That's great. You've passed the security check. I'm now going to see what I can do about your credit limit. This can take up to 2 minutes, so hang on and I'll get back to . . ."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"POSTCODE",
+						"gu51 2tj",
+						"gu512tj",
+						"GU51 2TJ",
+						"GU512TJ",
+						"HP143BW",
+						"hp143bw",
+						"hp14 3bw",
+						"HP14 3BW"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "+LIMIT REJECTED",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CALL ME if you'd like someone to call you back now or CHAT to continue this SMS conversation with a human."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CALL ME if you'd like someone to call you back now or CHAT to continue this SMS conversation with a human."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"+LIMIT REJECTED"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "CURRENT CREDIT LIMIT",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Got that. Finally, I just need you to confirm the postcode of your credit card's billing address."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Got that. Finally, I just need you to confirm the postcode of your credit card's billing address."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"CURRENT CREDIT LIMIT",
+						"8500"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "CCV",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. No £ sign or commas."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. No £ sign or commas."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"CCV",
+						"123"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Manage My Appointment",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "status",
+														"title": "Status"
+													},
+													{
+														"content_type": "text",
+														"payload": "change",
+														"title": "Change"
+													},
+													{
+														"content_type": "text",
+														"payload": "cancel",
+														"title": "Cancel"
+													}
+												],
+												"text": "Thanks for using our Existing Repairs Manager. Check your repair appointment status, change the time or cancel it using the buttons below."
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "status",
+														"title": "Status"
+													},
+													{
+														"content_type": "text",
+														"payload": "change",
+														"title": "Change"
+													},
+													{
+														"content_type": "text",
+														"payload": "cancel",
+														"title": "Cancel"
+													}
+												],
+												"text": "Thanks for using our WhatsApp Appointment Manager. Check your appointment status, change the time or cancel it using the buttons below."
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Manage My Appointment",
+						"AbdulDemoAppointment",
+						"Manage"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "13:00",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Your appointment has been changed to 13:00 on Mon 29 Aug. We'll send you a reminder message the day before and another on the day to say our engineer is on the way. Thanks for using our Existing Repairs Manager."
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Your appointment has been changed to 13:00 on Mon 29 Aug. We'll send you a reminder message the day before and another on the day to say our engineer is on the way. Thanks for using our WhatsApp appointment Manager."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"13:00",
+						"1300"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "15:30",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Your appointment has been changed to 15:30 on Mon 29 Aug. We'll send you a reminder message the day before and another on the day to say our engineer is on the way. Thanks for using our Existing Repairs Manager."
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Your appointment has been changed to 15:30 on Mon 29 Aug. We'll send you a reminder message the day before and another on the day to say our engineer is on the way. Thanks for using our WhatsApp appointment Manager."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"15:30",
+						"1530"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "09:30",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Your appointment has been changed to 09:30 on Mon 29 Aug. We'll send you a reminder message the day before and another on the day to say our engineer is on the way. Thanks for using our Existing Repairs Manager."
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Your appointment has been changed to 09:30 on Mon 29 Aug. We'll send you a reminder message the day before and another on the day to say our engineer is on the way. Thanks for using our WhatsApp appointment Manager."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"09:30",
+						"0930"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "CONFIRM",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "i'm sure",
+														"title": "I'm Sure"
+													},
+													{
+														"content_type": "text",
+														"payload": "dont cancel",
+														"title": "Don't Cancel"
+													}
+												],
+												"text": "You are about to cancel your apppointment at 10:30 on Mon 22 Aug. Are you sure you want to proceed?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "i am sure",
+														"title": "I'm Sure"
+													},
+													{
+														"content_type": "text",
+														"payload": "dont cancel",
+														"title": "Don't Cancel"
+													}
+												],
+												"text": "You are about to cancel your apppointment at 10:30 on Mon 22 Aug. Are you sure you want to proceed?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"CONFIRM",
+						"Yes cancel"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Fri 02 Sep",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "09:30",
+														"title": "09:30"
+													},
+													{
+														"content_type": "text",
+														"payload": "13:00",
+														"title": "13:00"
+													},
+													{
+														"content_type": "text",
+														"payload": "15:30",
+														"title": "15:30"
+													}
+												],
+												"text": "You want to change your appointment to Fri 02 Sep. Please select a time from the options below."
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "09:30",
+														"title": "0930"
+													},
+													{
+														"content_type": "text",
+														"payload": "13:00",
+														"title": "1300"
+													},
+													{
+														"content_type": "text",
+														"payload": "15:30",
+														"title": "1530"
+													}
+												],
+												"text": "You want to change your appointment to Fri 02 Sep. Please select a time from the options below."
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Fri 02 Sep"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Wed 31 Aug",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "09:30",
+														"title": "09:30"
+													},
+													{
+														"content_type": "text",
+														"payload": "13:00",
+														"title": "13:00"
+													},
+													{
+														"content_type": "text",
+														"payload": "15:30",
+														"title": "15:30"
+													}
+												],
+												"text": "You want to change your appointment to Wed 31 Aug. Please select a time from the options below."
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "09:30",
+														"title": "0930"
+													},
+													{
+														"content_type": "text",
+														"payload": "13:00",
+														"title": "1300"
+													},
+													{
+														"content_type": "text",
+														"payload": "15:30",
+														"title": "1530"
+													}
+												],
+												"text": "You want to change your appointment to Wed 31 Aug. Please select a time from the options below."
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Wed 31 Aug"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Mon 29 Aug",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "09:30",
+														"title": "09:30"
+													},
+													{
+														"content_type": "text",
+														"payload": "13:00",
+														"title": "13:00"
+													},
+													{
+														"content_type": "text",
+														"payload": "15:30",
+														"title": "15:30"
+													}
+												],
+												"text": "You want to change your appointment to Mon 29 Aug. Please select a time from the options below."
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "09:30",
+														"title": "0930"
+													},
+													{
+														"content_type": "text",
+														"payload": "13:00",
+														"title": "1300"
+													},
+													{
+														"content_type": "text",
+														"payload": "15:30",
+														"title": "1530"
+													}
+												],
+												"text": "You want to change your appointment to Mon 29 Aug. Please select a time from the options below."
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Mon 29 Aug"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "STATUS",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "change",
+														"title": "Change"
+													},
+													{
+														"content_type": "text",
+														"payload": "cancel",
+														"title": "Cancel"
+													}
+												],
+												"text": "Your appointment with our service engineer, Clive, is confirmed for 10.30am on 22/08/2022. We'll send you a message if anything changes before then.  You'll get a reminder message the day before your appointment and another on the day to let you know Clive is on his way."
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "change",
+														"title": "Change"
+													},
+													{
+														"content_type": "text",
+														"payload": "cancel",
+														"title": "Cancel"
+													}
+												],
+												"text": "Your appointment with our service engineer, Clive, is confirmed for 10.30am on 22/08/2022. We'll send you a message if anything changes before then.  You'll get a reminder message the day before your appointment and another on the day to let you know Clive is on his way."
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"STATUS"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "CHANGE",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "mon 29 aug",
+														"title": "Mon 29 Aug"
+													},
+													{
+														"content_type": "text",
+														"payload": "wed 31 aug",
+														"title": "Wed 31 Aug"
+													},
+													{
+														"content_type": "text",
+														"payload": "fri 02 sep",
+														"title": "Fri 02 Sep"
+													}
+												],
+												"text": "OK. You want to change your appointment time. We've got some alternative dates for you. Please select the date that suits you best and then we'll confirm a time."
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "mon 29 aug",
+														"title": "Mon 29 Aug"
+													},
+													{
+														"content_type": "text",
+														"payload": "wed 31 aug",
+														"title": "Wed 31 Aug"
+													},
+													{
+														"content_type": "text",
+														"payload": "fri 02 sep",
+														"title": "Fri 02 Sep"
+													}
+												],
+												"text": "OK. You want to change your appointment time. We've got some alternative dates for you. Please select the date that suits you best and then we'll confirm a time."
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"CHANGE"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "CANCEL",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "confirm",
+														"title": "Yes cancel"
+													},
+													{
+														"content_type": "text",
+														"payload": "dont cancel",
+														"title": "No"
+													}
+												],
+												"text": "Your appointment is currently confirmed for 10:30 on Mon 22 Aug. Do you want to cancel it?"
+											}
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "confirm",
+														"title": "Yes Cancel"
+													},
+													{
+														"content_type": "text",
+														"payload": "dont cancel",
+														"title": "No"
+													}
+												],
+												"text": "Your appointment is currently confirmed for 10:30 on Mon 22 Aug. Do you want to cancel it?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"CANCEL"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "DONT CANCEL",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Ok, no problem, your appointment on 10:30 on Mon 22 Aug is still confirmed.  Thanks for using our Existing Repairs Manager."
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Ok, no problem, your appointment on 10:30 on Mon 22 Aug is still confirmed.  Thanks for using our WhatsApp appointment Manager."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"DONT CANCEL"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "I AM SURE",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Ok, your appointment on 10:30 on Mon 22 Aug has been cancelled.  Thanks for using our Existing Repairs Manager."
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Ok, your appointment on 10:30 on Mon 22 Aug has been cancelled.  Thanks for using our WhatsApp appointment Manager."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"I AM SURE"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "CANCELCONFIRMED",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Your appointment at 10:30 on Mon 22 Aug has been cacelled. Thanksyou for using our WhatsApp Appointment Manager."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"CANCELCONFIRMED"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Appointment"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "INSURANCE",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "FAQS",
+														"title": "FAQs"
+													},
+													{
+														"content_type": "text",
+														"payload": "Policy Status",
+														"title": "POLICY STATUS"
+													},
+													{
+														"content_type": "text",
+														"payload": "Claim Status",
+														"title": "CLAIM STATUS"
+													},
+													{
+														"content_type": "text",
+														"payload": "Get A Quote",
+														"title": "GET A QUOTE"
+													},
+													{
+														"content_type": "text",
+														"payload": "Accident",
+														"title": "I'VE HAD AN ACCIDENT!"
+													}
+												],
+												"text": "What would you like help with?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"INSURANCE",
+						"AbdulDemoInsurance",
+						"Insurance",
+						"INSURANCE"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Location Received",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Pictures",
+														"title": "Yes"
+													},
+													{
+														"content_type": "text",
+														"payload": "No Pictures",
+														"title": "No"
+													}
+												],
+												"text": "Can you add some photgraphs of the damage to both cars and the surrounding areas please?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Location Received",
+						"location have"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "DONE",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Thanks for sending your pictures.\n\nNow, please give us a brief description of the incident."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"DONE"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Inside lane",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "More Details",
+														"title": "Yes"
+													},
+													{
+														"content_type": "text",
+														"payload": "No More Details",
+														"title": "No"
+													}
+												],
+												"text": "Thanks.\n\nAre there any other details you feel we should know?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Inside lane",
+						"traffic lights",
+						"I hit a car",
+						"hit",
+						"I went into the back of someone",
+						"Inside lane",
+						"inside lane"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Policy Status",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "FAQs",
+														"title": "FAQs"
+													},
+													{
+														"content_type": "text",
+														"payload": "CLAIM STATUS",
+														"title": "CLAIM STATUS"
+													},
+													{
+														"content_type": "text",
+														"payload": "GET A QUOTE",
+														"title": "GET A QUOTE"
+													},
+													{
+														"content_type": "text",
+														"payload": "Accident",
+														"title": "I'VE HAD AN ACCIDENT!"
+													}
+												],
+												"text": "Hi John, your car registration HF70 123 is insured until 01 October 2023.\n\nWhat would you like to do next?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Policy Status",
+						"Policy Status"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Another Vehicle",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Drivable",
+														"title": "Yes"
+													},
+													{
+														"content_type": "text",
+														"payload": "Not Drivable",
+														"title": "No"
+													}
+												],
+												"text": "Is your car drivable?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Another Vehicle"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Insurance Done",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Thanks John.  Now relax!\n\nOne of our claims experts will call you today between 1-2pm.  Your claim reference is CL1234.  We understand that making a claim can be stressful but don't worry, we've got this!"
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Insurance Done"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "No More Details",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Insurance Done",
+														"title": "1-2pm"
+													},
+													{
+														"content_type": "text",
+														"payload": "Insurance Done",
+														"title": "2-3pm"
+													},
+													{
+														"content_type": "text",
+														"payload": "Insurance Done",
+														"title": "3-4pm"
+													},
+													{
+														"content_type": "text",
+														"payload": "Insurance Done",
+														"title": "4-5pm"
+													}
+												],
+												"text": "We need to call you later today to discuss this further.  Can you tell me a good time to call?  Select the most conveniemt time from the list below."
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"No More Details"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Location",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [],
+												"text": "Thanks, please send us your location now.\n\nYou can do this by clicking the \"+\" sign to the left of the message box and selecting Location."
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Location"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Legal",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Location",
+														"title": "Yes"
+													},
+													{
+														"content_type": "text",
+														"payload": "No Location",
+														"title": "No"
+													}
+												],
+												"text": "It would be very helpful to know your location?\n\nAre you prepared to share it with us?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Legal",
+						"Drivable"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Pictures",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Ok, please send your pictures now.  Send DONE when complete"
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Pictures"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Mine",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Another Vehicle",
+														"title": "Yes"
+													},
+													{
+														"content_type": "text",
+														"payload": "No Other Vehicle",
+														"title": "No"
+													}
+												],
+												"text": "Did the accident involve another vehicle?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Mine"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Work",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Mine",
+														"title": "Mine"
+													},
+													{
+														"content_type": "text",
+														"payload": "3rd Party",
+														"title": "3rd Party"
+													}
+												],
+												"text": "Ok, who's fault was the accident?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Work",
+						"work"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Safe",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Good, glad to hear that you are ok.\n\nNow we need some more information.\n\nWhere were you travelling to at the time of the accident?"
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Safe",
+						"Safe"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Accident",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Safe",
+														"title": "Yes"
+													},
+													{
+														"content_type": "text",
+														"payload": "Not Safe",
+														"title": "No"
+													}
+												],
+												"text": "Hi John, sorry to hear you have been in an accident.  Don't worry, we are here to help.\n\nFirstly are you safe and uninjured?"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Accident"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Insurance"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "What can you do?",
+			"section_id": "help",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Hey, this is one of the bots default articles. You can add your own answer to this section and add more variants"
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"What can you do?",
+						"How can you help?",
+						"What do you do?"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Default"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Talk to an agent",
+			"section_id": "agent",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Ok, transferring you to an agent now..."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Ok, transferring you to an agent now..."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Talk to an agent",
+						"Test through to agent",
+						"hello",
+						"speak with agent",
+						"chat",
+						"Chat",
+						"Chat to an Agent",
+						"Talk to an Agent",
+						"Hi",
+						"Can I talk to a human?",
+						"agent",
+						"human",
+						"Connect me to a human",
+						"Chat with agent",
+						"Can I speak with someone?"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Default"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Welcome Message",
+			"section_id": "first_message",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Congratulations on creating a new bot, go ahead and type “What can you do” to see how bot works.Oh, this is the welcome message which can be configured in the ‘Welcome message’ article"
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Congratulations on creating a new bot, go ahead and type “What can you do” to see how bot works.Oh, this is the welcome message which can be configured in the ‘Welcome message’ article"
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Welcome Message"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Default"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Fallback Message",
+			"section_id": "fallback",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Sorry,  I could not understand your message. Could you please rephrase that?"
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Fallback Message"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Default"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "Partial match",
+			"section_id": "partial_match",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Sorry, I was unable to understand your query accurately. Could you select which article you were referring to?"
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Partial match"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Default"
+		}
+	]
+}
