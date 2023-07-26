@@ -9,7 +9,7 @@ version: 1.0
 
 gitbook_version: 3.2.3
 
-url: "https://webexcctsa.github.io"
+url: "https://webexcctsa.github.io/wxcc-usecases"
 baseurl: ""
 
 rss: RSS
