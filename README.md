@@ -6,7 +6,7 @@ cover: wxcc-usecases/assets/gitbook/images/Home.jpeg
 ---
 
 
-Welcome to the Webex Use Case Repository. Here you will find step-by-step guides on how use the Use Cases the Webex Contact Center features.
+Adam Welcome to the Webex Use Case Repository. Here you will find step-by-step guides on how use the Use Cases the Webex Contact Center features.
 
 
 ## Lab Content
