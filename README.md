@@ -2,7 +2,7 @@
 layout: home
 title: 'Webex CC Use Cases'
 permalink: /
-cover: /assets/gitbook/images/Home.jpeg
+cover: assets/gitbook/images/Home.jpeg
 ---
 
 
@@ -21,5 +21,5 @@ Adam Welcome to the Webex Use Case Repository. Here you will find step-by-step g
 | Lab 4  |          [Agent Handover](/pages/Supervisor/)           |   EASY    |  40 min   |
 
 
-<center><img src="/assets/gitbook/images/webex.png" width="100"></center>
+<center><img src="assets/gitbook/images/webex.png" width="100"></center>
 
