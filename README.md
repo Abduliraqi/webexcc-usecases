@@ -13,12 +13,12 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 
 | Lab ID |                         Lab Details                         | Dificulty | Estimated |
 |:------:|:-----------------------------------------------------------:|:---------:|:---------:|
-| Lab 0  | [Finance](/_pages/Template.md/) |   EASY    |  40 min   |
-| Lab 0  |                          [Automotive](/pages/Provisioning/) |   EASY    |  40 min   |
-| Lab 1  |                   [Credit Limit](/pages/CH/)                |   EASY    |  30 min   |
-| Lab 2  |                  [Appointment managment](/pages/IVR/)       |    MID    |  60 min   |
-| Lab 3  |               [Retail](/pages/Agent/)                       |   MID    |  55 min   |
-| Lab 4  |          [Agent Handover](/pages/Supervisor/)           |   EASY    |  40 min   |
+| Introduction  | [Finance](/_pages/Template.md/) |   EASY    |  40 min   |
+| Prerequisites  |                          [Automotive](/pages/Provisioning/) |   EASY    |  40 min   |
+| Use Case 1  |                   [Credit Limit](/pages/CH/)                |   EASY    |  30 min   |
+| Use Case 2  |                  [Appointment managment](/pages/IVR/)       |    MID    |  60 min   |
+| Use Case 3  |               [Retail](/pages/Agent/)                       |   MID    |  55 min   |
+| Use Case 4  |          [Agent Handover](/pages/Supervisor/)           |   EASY    |  40 min   |
 
 
 <center><img src="assets/gitbook/images/webex.png" width="100"></center>
