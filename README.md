@@ -13,7 +13,7 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 
 | Lab ID |                         Lab Details                         | Dificulty | Estimated |
 |:------:|:-----------------------------------------------------------:|:---------:|:---------:|
-| Introduction  | [Finance](/_pages/Template.md/) |   EASY    |  40 min   |
+| Prerequisites  | [Finance](/_pages/Prereq.md/) |   EASY    |  40 min   |
 | Prerequisites  |                          [Automotive](/pages/Provisioning/) |   EASY    |  40 min   |
 | Use Case 1  |                   [Credit Limit](/pages/CH/)                |   EASY    |  30 min   |
 | Use Case 2  |                  [Appointment managment](/pages/IVR/)       |    MID    |  60 min   |
