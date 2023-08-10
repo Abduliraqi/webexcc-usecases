@@ -20,9 +20,6 @@ The following need to be set up in order for the main Connect flows to work:
 
 
 
-## Introduction
-
-### Lab Objective
 
 
 <br>
