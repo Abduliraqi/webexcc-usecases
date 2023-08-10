@@ -18,10 +18,6 @@ The following need to be set up in order for the main Connect flows to work:
 -	QA and Task Bots
 
 
-
-
-
-
 <br>
 <br>
 --
