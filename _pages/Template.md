@@ -34,30 +34,6 @@ This Use Case is the Template page
 
 # Flows 
 
-# Basic Features
-
-| **Entity**           | **Name**                                                               |
-| -------------------- | ---------------------------------------------------------------------- |
-| Agent 1              | <w class = "attendee-class">attendeeID</w>_agent1@mailinator.com       |
-| Supervisor 1         | <w class = "attendee-class">attendeeID</w>\_supervisor1@mailinator.com |
-| Agent Profile        | <w class = "attendee-class">attendeeID</w>\_agentProfile               |
-| Entry Point          | <w class = "attendee-class">attendeeID</w>\_EP                         |
-| Queue                | <w class = "attendee-class">attendeeID</w>\_Q                          |
-| Team 1               | <w class = "attendee-class">attendeeID</w>\_team1                      |
-| Team 2               | <w class = "attendee-class">attendeeID</w>\_team2                      |
-| Outdial ANI          | <w class = "attendee-class">attendeeID</w>\_outdialANI                 |
-| Outdial ANI Entry 1  | <w class = "attendee-class">attendeeID</w>\_outdialANIEntry1           |
-| Address Book         | <w class = "attendee-class">attendeeID</w>\_addressBook                |
-| Address Book Entry 1 | <w class = "attendee-class">attendeeID</w>\_addressBookEntry1          |
-| Multimedia Profile   | <w class = "attendee-class">attendeeID</w>\_MMP                        |
-
-> **NOTE:** Please create all the tenant entities following the naming convention mentioned specified in the table above. Your _attendeeID_ is provided in the email in the **"Attendee ID"** line.
-{: .block-warning }
-
-> Be aware that all entities that don't match with attendee IDs will be deleted
-{: .block-warning }
-
-
 
 <br>
 <br>
