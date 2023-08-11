@@ -33,7 +33,7 @@ Webex Calling has to be configured before you start with the configuration of th
 -	Use this Extension for your Agent Login in Webex CC Desktop
 -	Assign a free Number  in Webex Calling and map it to an Entry Point in Webex CC
 For how to set up those elements, please refer to Labs 1 – 3 of the Webex CC Lab guides 
-[https://webexcc.github.io/](https://webexcc.github.io/){:target="\_blank"}\
+[https://webexcc.github.io/](https://webexcc.github.io/){:target="\_blank"}
 
 
 

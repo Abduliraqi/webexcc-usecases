@@ -9,31 +9,40 @@ layout: post
 Last modified: Thu, 10 August 2023
 ```
 
-## Overview of the Use Case:
+## Import QA and Task Bots:
 
-This Use Case is the Template page
-
-
-
-### Demo Video
-
-> The video below shows a demo about this Use Case:
-
-{: .block-tip }
-<div style="padding-bottom:60.25%; position:relative; display:block; width: 100%">
-	<iframe src="https://app.vidcast.io/share/e280e48b-bb9f-4335-a1fa-95c39427ec33" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
-</div>
-
-### How to configure this Demo Use Case in your Tenant
-
-1.	**WA_Selector.workflow**
-2. Create a new flow and Import from WA_Selector.workflow in the ConnectFlows directory.
-3. Make the following changes:
+In this section you will important the provided QA and Task Bot in your Webex Bot Builder.
 
 
+### QA Bot
 
-# Flows 
+1. From Webex Connect, open up the Bot Builder
+2. Select New Q&A Bot and give it a name [QA BOT Name]
+3. Select Allow Agent Handover and press Done
+4. Select the Articles menu and then click the three dots in the top right – choose Import from File 
+   
+   ![QA Bot](\../assets/gitbook/images/Bots/QA.png)
 
+5. Select Overwrite existing articles
+6. Select StandaloneDemosQABot.json from the BOTs directory.
+7. Train and Make live
+
+### Task Bot
+
+1. From Connect, open up the Bot Builder
+2. Select Task Bots, New Task Bot and Create Bot and give it a name [Task BOT Name] 
+3. Press Done
+4. Select the Training menu and then click the three dots in the top right – choose Import from JSON 
+
+   ![QA Bot](\../assets/gitbook/images/Bots/task.png)
+
+5. Select StandaloneDemosTaskBot.json from the BOTs directory.
+6. Train and Make live
+
+
+# Files 
+1. QA Bot
+2. Task Bot
 
 <br>
 <br>
@@ -53,3 +62,6 @@ This Use Case is the Template page
 		
 <p style="text-align:center;"><img src="///assets/gitbook/images/webex-small.png" width="100"></p>
 <center><img src="///assets/gitbook/images/webex.png" width="100"></center>
+
+
+[task]: \
