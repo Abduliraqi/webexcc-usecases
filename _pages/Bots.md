@@ -21,7 +21,7 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 3. Select Allow Agent Handover and press Done
 4. Select the Articles menu and then click the three dots in the top right – choose Import from File 
    
-   ![QA Bot](\../assets/gitbook/images/Bots/QA.png)
+   ![QA Bot](../assets/gitbook/images/Bots/QA.png)
    ![Outbound](/assets/gitbook/images/Bots/QA.png)
 
 5. Select Overwrite existing articles
