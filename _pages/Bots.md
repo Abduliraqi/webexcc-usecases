@@ -22,7 +22,7 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 4. Select the Articles menu and then click the three dots in the top right – choose Import from File 
    
    ![QA Bot](\../assets/gitbook/images/Bots/QA.png)
-   ![Outbound](/assets/images/1_OB_2.gif)
+   ![Outbound](/assets/gitbook/images/Bots/QA.png)
 
 5. Select Overwrite existing articles
 6. Select StandaloneDemosQABot.json from the BOTs directory.
