@@ -17,6 +17,8 @@ The following need to be set up in order for the main Connect flows to work:
 -	WhatsApp Entry Point, Team and queue in Webex CC configuration
 -	QA and Task Bots
 
+## Webex Calling Pre-requisites:
+
 ### Quick Links
 
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com){:target="\_blank"}**\
