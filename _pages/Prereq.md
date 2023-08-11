@@ -9,13 +9,22 @@ layout: post
 Last modified: Thursday, 10 August 2023
 ```
 
-## Pre-requisites:
+## Webex CC preparation:
+
+- Create an Inbound WhatsApp Entry Point 
+- Create an Inbound SMS Entry Point  
+- Create a Team 
+- Create a WhatsApp queue 
+- Create a SMS queue 
+
+
+## Webex Connect preparation:
 
 The following need to be set up in order for the main Connect flows to work:
 -	WhatsApp configured in the Connect Tenant.
 - SMS configured in the Connect Tenant.
--	WhatsApp Entry Point, Team and queue in Webex CC configuration
 -	QA and Task Bots
+
 
 ## Webex Calling Pre-requisites:
 
