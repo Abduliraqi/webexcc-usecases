@@ -21,7 +21,7 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 3. Select Allow Agent Handover and press Done
 4. Select the Articles menu and then click the three dots in the top right – choose Import from File 
    
-   ![QA Bot](wxcc-usecases//assets/gitbook/images/bots/QA.png)
+   ![QA Bot](wxcc-usecases/assets/gitbook/images/bots/QA.png)
 
 5. Select Overwrite existing articles
 6. Select StandaloneDemosQABot.json from the BOTs directory.
@@ -34,7 +34,7 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 3. Press Done
 4. Select the Training menu and then click the three dots in the top right – choose Import from JSON 
 
-   ![QA Bot](wxcc-usecases//assets/gitbook/images/bots/task.png)
+   ![QA Bot](wxcc-usecases/assets/gitbook/images/bots/task.png)
 
 5. Select StandaloneDemosTaskBot.json from the BOTs directory.
 6. Train and Make live
