@@ -19,11 +19,18 @@ The following need to be set up in order for the main Connect flows to work:
 
 ## Webex Calling Pre-requisites:
 
+Webex Calling has to be configured before you start with the configuration of the Use Cases.
+-	Create a User and provide a Webex Calling Extension
+-	Use this Extension for your Agent Login in Webex CC Desktop
+-	Assign a free Number  in Webex Calling and map it to an Entry Point in Webex CC
+For how to set up those elements, please refer to Labs 1 – 3 of the Webex CC Lab guides https://webexcc.github.io/
+
 ### Quick Links
 
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com){:target="\_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="\_blank"}**\
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="\_blank"}**\
+> Webex CC Documentation: **[https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html](https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html/){:target="\_blank"}**\
 > Developer Portal: **[https://developer.webex-cx.com](https://developer.webex-cx.com/){:target="\_blank"}**\
 > API Samples Git Repository: **[https://github.com/CiscoDevNet/webex-contact-center-api-samples](https://github.com/CiscoDevNet/webex-contact-center-api-samples){:target="\_blank"}**\
 > Widgets Samples Git Repository: **[https://github.com/CiscoDevNet/webex-contact-center-widget-starter/tree/master/Examples](https://github.com/CiscoDevNet/webex-contact-center-widget-starter/tree/master/Examples){:target="\_blank"}**\
