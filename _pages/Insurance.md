@@ -1,5 +1,5 @@
 ---
-title: Template
+title: Insurance
 author: Cisco CC TSA Team
 date: 2023-08-10
 layout: post
@@ -21,7 +21,7 @@ This Use Case is the Template page
 
 {: .block-tip }
 <div style="padding-bottom:60.25%; position:relative; display:block; width: 100%">
-	<iframe src="https://app.vidcast.io/share/e280e48b-bb9f-4335-a1fa-95c39427ec33" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
+	<iframe src="https://app.vidcast.io/share/a5995031-16b4-49a5-abe2-30beee362f43" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
 </div>
 
 ### How to configure this Demo Use Case in your Tenant
@@ -49,6 +49,7 @@ This Use Case is the Template page
     })
   </script>
 
-<p style="text-align:center"><strong>Congratulations, you have completed the configuration for this Demo Use Case! You can continue with the next one.</strong></p>
+<p style="text-align:center"><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
 		
-
+<p style="text-align:center;"><img src="///assets/gitbook/images/webex-small.png" width="100"></p>
+<center><img src="///assets/gitbook/images/webex.png" width="100"></center>

@@ -1,5 +1,5 @@
 ---
-title: Template
+title: Call Deflection
 author: Cisco CC TSA Team
 date: 2023-08-10
 layout: post
@@ -49,6 +49,7 @@ This Use Case is the Template page
     })
   </script>
 
-<p style="text-align:center"><strong>Congratulations, you have completed the configuration for this Demo Use Case! You can continue with the next one.</strong></p>
+<p style="text-align:center"><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
 		
-
+<p style="text-align:center;"><img src="///assets/gitbook/images/webex-small.png" width="100"></p>
+<center><img src="///assets/gitbook/images/webex.png" width="100"></center>

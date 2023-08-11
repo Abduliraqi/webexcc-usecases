@@ -11,15 +11,16 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 
 ## Lab Content
 
-| Demo Use Case     |                         Lab Details                               | 
-|:------:           |:-----------------------------------------------------------:      |
-| Pre-requisites    |           [Finance](/_pages/Prereq.md/)                           | 
-| Bots (AI)         |           [Bots (AI)](/pages/Provisioning/)                       | 
-| Credit Limit      |           [Credit Limit](/pages/CH/)                              | 
-| Appointment managment |       [Appointment managment](/pages/IVR/)                    | 
-| Retail            |           [Retail](/pages/Agent/)                                 |  
-| Insurance         |           [Insurance](/pages/Agent/)                              | 
-| Agent Handover    |           [Agent Handover](/pages/Supervisor/)                    |   
+|                         Demo Use Case             | Description   | 
+|:--------------------------------------------------:|---------------| 
+|      [Pre-requisites](/_pages/Prereq.md/)    | What you need to set up before starting                                             builing the Demo Use Cases          |
+|      [Bots (AI)](/_pages/Bots.md/)            | Import QA and Task Bot               |
+|      [Finance](/_pages/Finance.md/)           | Finance Demo Use Case              |
+|      [Appointment managment](/_pages/Appointment.md/)|      Appointment managment Demo Use Case         |
+|      [Retail](/_pages/Retail.md/)              |          Retail Demo Use Case     |
+|      [Insurance](/_pages/Insurance.md/)        |       Insurance Demo Use Case        | 
+|      [Agent Handover](/pages/AgentHandover.md/) |        Agent Handover Demo Use Case       |   
+|      [Call Deflection](/pages/CallDeflect.md/)  |         Call Deflection Demo Use Case      |
 
 
 <center><img src="assets/gitbook/images/webex.png" width="100"></center>
