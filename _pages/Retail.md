@@ -40,12 +40,17 @@ Following use cases are part of the Retails Demo:
 - Make the following changes:
 - Edit the Custom Variables to add agent name and email address for the Callback API:
 
-![Trigger Word](/assets/gitbook/images/Retail/triggerword.png)
+
+
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Retail/triggerword.png" width="80%"></center>
+
 
 
 -	Edit the Trigger Node to add AbdulDemoRetail (or whatever unique trigger you want to use)
 
-![Custom Variable](/assets/images/Retail/waevent.png)
+
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Retail/waevent.png" width="80%"></center>
+
 
 -	In the Agent Handover path edit the Queue Task to add your own queue
 -	Open and save All Receive nodes 
