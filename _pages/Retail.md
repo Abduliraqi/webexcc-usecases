@@ -45,9 +45,7 @@ Following use cases are part of the Retails Demo:
 
 <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Retail/triggerword.png" width="80%"></center>
 
-=======
-![Trigger Word](/wxcc-usecases/assets/gitbook/images/Retail/triggerword.png)
->>>>>>> eadea2fc974927b569731d5a0b76108f78ad663d
+
 
 
 -	Edit the Trigger Node to add AbdulDemoRetail (or whatever unique trigger you want to use)
