@@ -64,4 +64,4 @@ For how to set up those elements, please refer to Labs 1 – 3 of the Webex CC L
 <p style="text-align:center"><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
 		
 <p style="text-align:center;"><img src="/assets/gitbook/images/webex.png" width="100"></p>
-<center><img src="assets/gitbook/images/webex.png" width="100"></center>
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/webex-small.png" width="100"></center>
