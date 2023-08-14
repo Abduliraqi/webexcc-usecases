@@ -11,7 +11,7 @@ Last modified: Thu, 10 August 2023
 
 ## Overview of the Use Case:
 
-This Use Case is the Template page
+This Use Case is an Example how to escalate from a digital Interaction to an Agent.
 
 
 
@@ -26,14 +26,17 @@ This Use Case is the Template page
 
 ### How to configure this Demo Use Case in your Tenant
 
-1.	**WA_Selector.workflow**
-2. Create a new flow and Import from WA_Selector.workflow in the ConnectFlows directory.
+1.	**WA_Agent.workflow**
+2. Create a new flow and Import from WA_Agent.workflow in the ConnectFlows directory.
 3. Make the following changes:
+
+- Edit the Queue Task to add your own queue
+- Save and Make Live – select the appropriate WhatsApp App.
 
 
 
 # Flows 
-
+WA_Agent.workflow
 
 <br>
 <br>

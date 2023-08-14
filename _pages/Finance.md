@@ -30,11 +30,11 @@ In addition it demonstrate the Deflection from bot to Call or WhatsApp Chat
 2. Create a new flow and Import from WA_Credit.workflow in the ConnectFlows directory.
 3. Make the following changes:
 
-o	In the Agent Handover path edit the Queue Task to add your own queue
-o	Open and save All Receive nodes.
-o	Check Delay set to 5 seconds
-o	Open the TaskBot node and select the QA BOT created above [Task BOT Name]
-o	Save and Make Live – select the appropriate WhatsApp App.
+- In the Agent Handover path edit the Queue Task to add your own queue
+- Open and save All Receive nodes.
+- Check Delay set to 5 seconds
+- Open the TaskBot node and select the QA BOT created above [Task BOT Name]
+- Save and Make Live – select the appropriate WhatsApp App.
 
 
 

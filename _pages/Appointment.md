@@ -44,7 +44,7 @@ The Appointment Management Use Case demonstrate:
 
 
 # Flows 
-
+WA_Appointment.workflow
 
 <br>
 <br>
