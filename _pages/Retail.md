@@ -72,5 +72,4 @@ Following use cases are part of the Retails Demo:
 
 <p style="text-align:center"><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
 		
-<p style="text-align:center;"><img src="///assets/gitbook/images/webex-small.png" width="100"></p>
-<center><img src="///assets/gitbook/images/webex.png" width="100"></center>
+<p style="text-align:center;"><img src="/assets/gitbook/images/webex-small.png" width="100"></p>

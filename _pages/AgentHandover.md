@@ -1,5 +1,5 @@
 ---
-title: Agent Handover
+title: Agent Handover (WhatsApp)
 author: Cisco CC TSA Team
 date: 2023-08-10
 layout: post
@@ -11,7 +11,7 @@ Last modified: Thu, 10 August 2023
 
 ## Overview of the Use Case:
 
-This Use Case is an Example how to escalate from a digital Interaction to an Agent.
+This Use Case is an Example how to escalate from a digital Interaction to an Agent using WhatsApp as a Channel.
 
 
 
@@ -54,5 +54,5 @@ WA_Agent.workflow
 
 <p style="text-align:center"><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
 		
-<p style="text-align:center;"><img src="///assets/gitbook/images/webex-small.png" width="100"></p>
-<center><img src="///assets/gitbook/images/webex.png" width="100"></center>
+<p style="text-align:center;"><img src="/assets/gitbook/images/webex-small.png" width="100"></p>
+

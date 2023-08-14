@@ -45,5 +45,6 @@ WA_Selector.workflow
   </script>
 
 <p style="text-align:center"><strong>Congratulations, you have completed the configuration for this Demo Use Case! You can continue with the next one.</strong></p>
-		
+
+<p style="text-align:center;"><img src="/assets/gitbook/images/webex-small.png" width="100"></p>
 
