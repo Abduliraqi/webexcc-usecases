@@ -1,5 +1,5 @@
 ---
-title: 01 - Pre-requisites
+title: Pre-requisites
 author: Abdul Iraqi
 date: 2023-08-10
 layout: post
