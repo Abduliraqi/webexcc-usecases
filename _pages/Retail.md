@@ -61,7 +61,7 @@ Following use cases are part of the Retails Demo:
 
 
 ## Files
-
+WA_Retail.workflow
 
 <br>
 <br>
