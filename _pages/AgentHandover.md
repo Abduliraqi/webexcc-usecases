@@ -1,5 +1,5 @@
 ---
-title: Demo 02 - Agent Handover
+title: Agent Handover
 author: Cisco CC TSA Team
 date: 2023-08-10
 layout: post
