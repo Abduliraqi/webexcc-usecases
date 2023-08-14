@@ -34,9 +34,9 @@ The Appointment Management Use Case demonstrate:
 3. Make the following changes:
 - 	Edit the Trigger Node to add AbdulDemoAppointment (or whatever unique trigger you want to use)
 
-<center>![Trigger Word](https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Appointment/triggerword.png)</center>
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Appointment/triggerword.png" width="80%"></center>
 
-triggerword
+
 
 - In the Agent Handover path edit the Queue Task to add your own queue
 - Open and save All Receive nodes.
