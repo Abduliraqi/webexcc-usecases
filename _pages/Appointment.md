@@ -34,7 +34,7 @@ The Appointment Management Use Case demonstrate:
 3. Make the following changes:
 - 	Edit the Trigger Node to add AbdulDemoAppointment (or whatever unique trigger you want to use)
 
-![Trigger Word](https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Appointment/triggerword.png)
+<center>![Trigger Word](https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Appointment/triggerword.png)</center>
 
 triggerword
 
