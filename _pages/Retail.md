@@ -33,7 +33,7 @@ Following use cases are part of the Retails Demo:
 
 
 
-# Import Retail Flow
+## Import Retail Flow
 
 - **WA_Retail.workflow**
 - Create a new flow and Import from WA_Retail.workflow in the ConnectFlows directory.
