@@ -45,7 +45,7 @@ Following use cases are part of the Retails Demo:
 
 -	Edit the Trigger Node to add AbdulDemoRetail (or whatever unique trigger you want to use)
 
-![Custom Variable](/assets/images/Retail/waevent.png)
+![Custom Variable](/wxcc-usecases/assets/gitbook/images/Retail/waevent.png)
 
 -	In the Agent Handover path edit the Queue Task to add your own queue
 -	Open and save All Receive nodes 
