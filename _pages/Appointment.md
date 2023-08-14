@@ -36,6 +36,8 @@ The Appointment Management Use Case demonstrate:
 
 <center>![Trigger Word](https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Appointment/triggerword.png)</center>
 
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Appointment/triggerword.png" width="100"></center>
+
 triggerword
 
 - In the Agent Handover path edit the Queue Task to add your own queue
