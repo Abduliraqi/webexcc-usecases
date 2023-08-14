@@ -11,8 +11,8 @@ Last modified: Thu, 10 August 2023
 
 ## Overview of the Use Case:
 
-This Use Case is the Template page
-
+The Finance Use Case shows an example of digital proactive outreach to the customer in case of Credit limit.
+In addition it demonstrate the Deflection from bot to Call or WhatsApp Chat
 
 
 ### Demo Video
@@ -26,9 +26,16 @@ This Use Case is the Template page
 
 ### How to configure this Demo Use Case in your Tenant
 
-1.	**WA_Selector.workflow**
-2. Create a new flow and Import from WA_Selector.workflow in the ConnectFlows directory.
+1.	**WA_Credit.workflow**
+2. Create a new flow and Import from WA_Credit.workflow in the ConnectFlows directory.
 3. Make the following changes:
+
+o	In the Agent Handover path edit the Queue Task to add your own queue
+o	Open and save All Receive nodes.
+o	Check Delay set to 5 seconds
+o	Open the TaskBot node and select the QA BOT created above [Task BOT Name]
+o	Save and Make Live – select the appropriate WhatsApp App.
+
 
 
 

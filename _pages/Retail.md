@@ -48,7 +48,7 @@ To use the Retail Use Case, type **Retail** to start the Demo.
 - Make the following changes:
 - Edit the Custom Variables to add agent name and email address for the Callback API:
 
- ![Custom Variable](/assets/images/Retail/customvar.png)
+![Trigger Word](/assets/images/Retail/triggerword.png)
 
 
 -	Edit the Trigger Node to add AbdulDemoRetail (or whatever unique trigger you want to use)

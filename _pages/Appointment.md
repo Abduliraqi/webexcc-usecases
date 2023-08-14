@@ -11,8 +11,11 @@ Last modified: Thu, 10 August 2023
 
 ## Overview of the Use Case:
 
-This Use Case is the Template page
+The Appointment Management Use Case demonstrate:
 
+- Check my Appointment Status
+- Change my Appointment
+- Cancel my Appointment
 
 
 ### Demo Video
@@ -26,9 +29,17 @@ This Use Case is the Template page
 
 ### How to configure this Demo Use Case in your Tenant
 
-1.	**WA_Selector.workflow**
-2. Create a new flow and Import from WA_Selector.workflow in the ConnectFlows directory.
+1.	**WA_Appointment.workflow**
+2. Create a new flow and Import from WA_Appointment.workflow in the ConnectFlows directory.
 3. Make the following changes:
+- 	Edit the Trigger Node to add AbdulDemoAppointment (or whatever unique trigger you want to use)
+
+![Trigger Word](/assets/images/Appointment/triggerword.png)
+
+- In the Agent Handover path edit the Queue Task to add your own queue
+- Open and save All Receive nodes.
+- Open the QnABot node and select the QA BOT created above [QA BOT Name]
+- Save and Make Live – select the appropriate WhatsApp App.
 
 
 
