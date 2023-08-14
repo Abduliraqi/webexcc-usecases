@@ -51,7 +51,7 @@ Following use cases are part of the Retails Demo:
 -	Edit the Trigger Node to add AbdulDemoRetail (or whatever unique trigger you want to use)
 
 
-<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Retail/waevent.png" width="80%"></center>
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Retail/customvar.png" width="80%"></center>
 
 
 -	In the Agent Handover path edit the Queue Task to add your own queue
