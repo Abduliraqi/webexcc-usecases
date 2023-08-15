@@ -2,6 +2,347 @@
 	"sections": [
 		{
 			"enabled": true,
+			"entry_context": [],
+			"exit_context": [],
+			"metadata": {},
+			"name": "LIMIT",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Hello! I'm your virtual asistant.  I'm going to see if I can increase your credit limit.  Before I do I have some security questions.  First, please enter the 3 numbers on the back of your card ending 4321."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Hello! I'm your virtual asistant.  I'm going to see if I can increase your credit limit.  Before I do I have some security questions.  First, please enter the 3 numbers on the back of your card ending 4321."
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Hello! I'm your virtual asistant.  I'm going to see if I can increase your credit limit.  Before I do I have some security questions.  First, please enter the 3 numbers on the back of your card ending 4321."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"Limit",
+						"creditDemo",
+						"CreditDemo",
+						"creditdemo",
+						"AbdulDemoLimit",
+						"Limit",
+						"limit",
+						"LIMIT",
+						"creditdemo",
+						"creditdemo",
+						"Creditdemo ",
+						"creditdemo "
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"metadata": {},
+			"name": "CCV",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. No £ sign or commas."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. No £ sign or commas."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"CCV",
+						"123",
+						"124 "
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"entry_context": [],
+			"exit_context": [],
+			"metadata": {},
+			"name": "+LIMIT REJECTED",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CALL ME if you'd like someone to call you back now or CHAT to continue this SMS conversation with a human."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CALL ME if you'd like someone to call you back now or CHAT to continue this conversation with a human."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"+LIMIT REJECTED"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"entry_context": [],
+			"exit_context": [],
+			"metadata": {},
+			"name": "CURRENT LIMIT",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"Got that. Finally, I just need you to confirm the postcode of your credit card's billing address."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"Got that. Finally, I just need you to confirm the postcode of your credit card's billing address."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"CURRENT LIMIT",
+						"8500"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"entry_context": [],
+			"exit_context": [],
+			"metadata": {},
+			"name": "POSTCODE",
+			"variants": {
+				"en": {
+					"answers": [],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"sms": [
+									{
+										"text": [
+											"That's great. You've passed the security check. I'm now going to see what I can do about your credit limit. This can take up to 2 minutes, so hang on and I'll get back to . . ."
+										],
+										"type": "response"
+									}
+								],
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"text": [
+											"That's great. You've passed the security check. I'm now going to see what I can do about your credit limit. This can take up to 2 minutes, so hang on and I'll get back to . . ."
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"POSTCODE",
+						"12055",
+						"gu51 2tj",
+						"gu512tj",
+						"GU51 2TJ",
+						"GU512TJ",
+						"HP143BW",
+						"hp143bw",
+						"hp14 3bw",
+						"HP14 3BW"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Credit Card Limit"
+		},
+		{
+			"enabled": true,
+			"entry_context": [],
+			"exit_context": [],
+			"metadata": {},
+			"name": "notindemo",
+			"variants": {
+				"en": {
+					"answers": [
+						{
+							"include": [
+								"web"
+							],
+							"text": [
+								"Please configure your message for web"
+							]
+						}
+					],
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please configure your message for Web"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Accident",
+														"title": "I've had an accident"
+													},
+													{
+														"content_type": "text",
+														"payload": "goodbye",
+														"title": "Goodbye"
+													}
+												],
+												"text": "This option is not part of the Demo. \nPlease choose I have an accident"
+											}
+										],
+										"type": "response"
+									}
+								]
+							}
+						}
+					},
+					"questions": [
+						"notindemo",
+						"Claim status",
+						"FAQ",
+						"get a quote",
+						"policy status",
+						"FAQs"
+					],
+					"response_type": "paths",
+					"send_response_in_default_language": false
+				}
+			},
+			"category_name": "Unassigned"
+		},
+		{
+			"enabled": true,
 			"metadata": {},
 			"name": "Help",
 			"variants": {
@@ -622,260 +963,6 @@
 				}
 			},
 			"category_name": "Smalltalk"
-		},
-		{
-			"enabled": true,
-			"metadata": {},
-			"name": "LIMIT",
-			"variants": {
-				"en": {
-					"answers": [],
-					"logic": "",
-					"paths": {
-						"configurable": [],
-						"default": {
-							"actions": {
-								"sms": [
-									{
-										"text": [
-											"Hello! I'm your virtual asistant.  I'm going to see if I can increase your credit limit.  Before I do I have some security questions.  First, please enter the 3 numbers on the back of your card ending 4321."
-										],
-										"type": "response"
-									}
-								],
-								"web": [
-									{
-										"text": [
-											"Please configure your message for Web"
-										],
-										"type": "response"
-									}
-								],
-								"whatsapp": [
-									{
-										"text": [
-											"Hello! I'm your virtual asistant.  I'm going to see if I can increase your credit limit.  Before I do I have some security questions.  First, please enter the 3 numbers on the back of your card ending 4321."
-										],
-										"type": "response"
-									}
-								]
-							}
-						}
-					},
-					"questions": [
-						"LIMIT",
-						"AbdulDemoLimit",
-						"Limit",
-						"limit",
-						"LIMIT"
-					],
-					"response_type": "paths",
-					"send_response_in_default_language": false
-				}
-			},
-			"category_name": "Credit Card Limit"
-		},
-		{
-			"enabled": true,
-			"metadata": {},
-			"name": "POSTCODE",
-			"variants": {
-				"en": {
-					"answers": [],
-					"logic": "",
-					"paths": {
-						"configurable": [],
-						"default": {
-							"actions": {
-								"sms": [
-									{
-										"text": [
-											"That's great. You've passed the security check. I'm now going to see what I can do about your credit limit. This can take up to 2 minutes, so hang on and I'll get back to . . ."
-										],
-										"type": "response"
-									}
-								],
-								"web": [
-									{
-										"text": [
-											"Please configure your message for Web"
-										],
-										"type": "response"
-									}
-								],
-								"whatsapp": [
-									{
-										"text": [
-											"That's great. You've passed the security check. I'm now going to see what I can do about your credit limit. This can take up to 2 minutes, so hang on and I'll get back to . . ."
-										],
-										"type": "response"
-									}
-								]
-							}
-						}
-					},
-					"questions": [
-						"POSTCODE",
-						"gu51 2tj",
-						"gu512tj",
-						"GU51 2TJ",
-						"GU512TJ",
-						"HP143BW",
-						"hp143bw",
-						"hp14 3bw",
-						"HP14 3BW"
-					],
-					"response_type": "paths",
-					"send_response_in_default_language": false
-				}
-			},
-			"category_name": "Credit Card Limit"
-		},
-		{
-			"enabled": true,
-			"metadata": {},
-			"name": "+LIMIT REJECTED",
-			"variants": {
-				"en": {
-					"answers": [],
-					"logic": "",
-					"paths": {
-						"configurable": [],
-						"default": {
-							"actions": {
-								"sms": [
-									{
-										"text": [
-											"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CALL ME if you'd like someone to call you back now or CHAT to continue this SMS conversation with a human."
-										],
-										"type": "response"
-									}
-								],
-								"web": [
-									{
-										"text": [
-											"Please configure your message for Web"
-										],
-										"type": "response"
-									}
-								],
-								"whatsapp": [
-									{
-										"text": [
-											"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CALL ME if you'd like someone to call you back now or CHAT to continue this SMS conversation with a human."
-										],
-										"type": "response"
-									}
-								]
-							}
-						}
-					},
-					"questions": [
-						"+LIMIT REJECTED"
-					],
-					"response_type": "paths",
-					"send_response_in_default_language": false
-				}
-			},
-			"category_name": "Credit Card Limit"
-		},
-		{
-			"enabled": true,
-			"metadata": {},
-			"name": "CURRENT CREDIT LIMIT",
-			"variants": {
-				"en": {
-					"answers": [],
-					"logic": "",
-					"paths": {
-						"configurable": [],
-						"default": {
-							"actions": {
-								"sms": [
-									{
-										"text": [
-											"Got that. Finally, I just need you to confirm the postcode of your credit card's billing address."
-										],
-										"type": "response"
-									}
-								],
-								"web": [
-									{
-										"text": [
-											"Please configure your message for Web"
-										],
-										"type": "response"
-									}
-								],
-								"whatsapp": [
-									{
-										"text": [
-											"Got that. Finally, I just need you to confirm the postcode of your credit card's billing address."
-										],
-										"type": "response"
-									}
-								]
-							}
-						}
-					},
-					"questions": [
-						"CURRENT CREDIT LIMIT",
-						"8500"
-					],
-					"response_type": "paths",
-					"send_response_in_default_language": false
-				}
-			},
-			"category_name": "Credit Card Limit"
-		},
-		{
-			"enabled": true,
-			"metadata": {},
-			"name": "CCV",
-			"variants": {
-				"en": {
-					"answers": [],
-					"logic": "",
-					"paths": {
-						"configurable": [],
-						"default": {
-							"actions": {
-								"sms": [
-									{
-										"text": [
-											"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. No £ sign or commas."
-										],
-										"type": "response"
-									}
-								],
-								"web": [
-									{
-										"text": [
-											"Please configure your message for Web"
-										],
-										"type": "response"
-									}
-								],
-								"whatsapp": [
-									{
-										"text": [
-											"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. No £ sign or commas."
-										],
-										"type": "response"
-									}
-								]
-							}
-						}
-					},
-					"questions": [
-						"CCV",
-						"123"
-					],
-					"response_type": "paths",
-					"send_response_in_default_language": false
-				}
-			},
-			"category_name": "Credit Card Limit"
 		},
 		{
 			"enabled": true,

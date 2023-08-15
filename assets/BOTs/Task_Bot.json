@@ -3,7 +3,7 @@
 		{
 			"color": "#156990",
 			"data": {
-				"pattern": "^[A-Za-z]{2}\\d{3}[A-Za-z]{2}$"
+				"pattern": "\\b\\d{5}\\b"
 			},
 			"name": "Postcode",
 			"system_entity": false,
@@ -59,6 +59,7 @@
 			],
 			"template_key": "SecurityCheck",
 			"reset_state": true,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -74,6 +75,7 @@
 			"entities": [],
 			"template_key": "GoThere",
 			"reset_state": false,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -89,6 +91,7 @@
 			"entities": [],
 			"template_key": "TestDrive",
 			"reset_state": false,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -108,6 +111,7 @@
 			"entities": [],
 			"template_key": "Agent handover",
 			"reset_state": false,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -123,6 +127,7 @@
 			"entities": [],
 			"template_key": "LocationReceived",
 			"reset_state": false,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -138,6 +143,7 @@
 			"entities": [],
 			"template_key": "Get Brochure",
 			"reset_state": false,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -153,6 +159,7 @@
 			"entities": [],
 			"template_key": "ShowRange",
 			"reset_state": false,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -176,6 +183,7 @@
 			"entities": [],
 			"template_key": "New Car",
 			"reset_state": false,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -195,6 +203,7 @@
 			"entities": [],
 			"template_key": "Call Me",
 			"reset_state": false,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -210,6 +219,7 @@
 			"entities": [],
 			"template_key": "Limit Rejected",
 			"reset_state": false,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -225,6 +235,7 @@
 			"entities": [],
 			"template_key": "Thank you",
 			"reset_state": true,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -276,6 +287,7 @@
 			"entities": [],
 			"template_key": "Goodbye",
 			"reset_state": true,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -347,6 +359,7 @@
 			"entities": [],
 			"template_key": "Greetings",
 			"reset_state": true,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -454,6 +467,7 @@
 			"entities": [],
 			"template_key": "Not helpful",
 			"reset_state": true,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -578,6 +592,7 @@
 			"entities": [],
 			"template_key": "Fallback message",
 			"reset_state": true,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -589,6 +604,7 @@
 			"entities": [],
 			"template_key": "Help message",
 			"reset_state": true,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -621,6 +637,7 @@
 			"entities": [],
 			"template_key": "Agent handover",
 			"reset_state": true,
+			"end_conversation": false,
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
@@ -1078,7 +1095,7 @@
 						"web": [
 							{
 								"text": [
-									"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. No £ sign or commas."
+									"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. 4 Digits and No £ sign or commas."
 								],
 								"type": "response"
 							}
@@ -1092,7 +1109,7 @@
 						"web"
 					],
 					"text": [
-						"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. No £ sign or commas."
+						"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. 4 Digits and No £ sign or commas."
 					],
 					"type": "response"
 				}
@@ -1110,7 +1127,7 @@
 						"web": [
 							{
 								"text": [
-									"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CHAT to continue this SMS conversation with a human."
+									"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CHAT to continue this conversation with a human."
 								],
 								"type": "response"
 							}
@@ -1124,7 +1141,7 @@
 						"web"
 					],
 					"text": [
-						"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CHAT to continue this SMS conversation with a human."
+						"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CHAT to continue this conversation with a human."
 					],
 					"type": "response"
 				}
@@ -1402,7 +1419,7 @@
 						"web": [
 							{
 								"text": [
-									"Got that. Finally, I just need you to confirm the postcode of your credit card's billing address."
+									"Got that. Finally, I just need you to confirm the 5 digit postcode of your credit card's billing address."
 								],
 								"type": "response"
 							}
@@ -1416,7 +1433,7 @@
 						"web"
 					],
 					"text": [
-						"Got that. Finally, I just need you to confirm the postcode of your credit card's billing address."
+						"Got that. Finally, I just need you to confirm the 5 digit postcode of your credit card's billing address."
 					],
 					"type": "response"
 				}
