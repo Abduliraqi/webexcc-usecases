@@ -14,7 +14,7 @@ Last modified: Thu, 10 August 2023
 Following use cases are part of the Retails Demo:
 - Order Status 
 - Find nearest store
-- Chat to Agent (requires the [Agent Handover](/pages/AgentHandover.md/) use case)
+- Chat to Agent (requires the [Agent Handover](/_pages/AgentHandover.md/) use case)
 - Call Me - Call back request
 
 
@@ -33,7 +33,7 @@ Following use cases are part of the Retails Demo:
 
 
 
-# Import Retail Flow
+## Import Retail Flow
 
 - **WA_Retail.workflow**
 - Create a new flow and Import from WA_Retail.workflow in the ConnectFlows directory.
@@ -50,7 +50,9 @@ Following use cases are part of the Retails Demo:
 
 -	Edit the Trigger Node to add AbdulDemoRetail (or whatever unique trigger you want to use)
 
-![Custom Variable](/assets/images/Retail/waevent.png)
+
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Retail/customvar.png" width="80%"></center>
+
 
 -	In the Agent Handover path edit the Queue Task to add your own queue
 -	Open and save All Receive nodes 
@@ -58,8 +60,8 @@ Following use cases are part of the Retails Demo:
 -	Save and Make Live – select the appropriate WhatsApp App.
 
 
-# Files
-
+## Files
+WA_Retail.workflow
 
 <br>
 <br>
