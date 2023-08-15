@@ -30,7 +30,8 @@ The Insurance Use Case shows an Example how to Reporting an Accident using digit
 3. Make the following changes:
    - 	Edit the Trigger Node to add YOUR_TRIGGER_Word (or whatever unique trigger you want to use)
 
-![Trigger Word](/assets/images/Insurance/triggerword.png)
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Insurance/triggerword.png" width="80%"></center>
+
 
 - In the Agent Handover path edit the Queue Task to add your own queue
 - Open and save All Receive nodes.
