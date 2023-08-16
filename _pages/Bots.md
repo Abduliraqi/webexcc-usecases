@@ -45,8 +45,11 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 
 ## Files 
 
-<a href="https://webexcctsa.github.io/wxcc-usecases/assets/bots/QA_Bot.json">QA Bot</a><br> 
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/bots/QA_Bot.json" download>QA Bot</a><br> 
 <a href="https://webexcctsa.github.io/wxcc-usecases/assets/bots/Task_Bot.json">Task Bot</a><br> 
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Agent.workflow">WA_Agent.workflow</a><br> 
+
 
 <br>
 <br>
