@@ -40,7 +40,7 @@ Following use cases are part of the Retails Demo:
 - Make the following changes:
 - Edit the Custom Variables to add agent name and email address for the Callback API:
 
-<<<<<<< HEAD
+
 
 
 <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Retail/triggerword.png" width="80%"></center>

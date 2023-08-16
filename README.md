@@ -14,6 +14,7 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 |                         Demo Use Case             | Description   | 
 |:--------------------------------------------------:|---------------| 
 |      [Pre-requisites](/_pages/Prereq.md/)    | What you need to set up before starting                                             builing the Demo Use Cases          |
+|      [First steps](/_pages/Firststeps.md/)            | Demo Selector (WhatsApp) and Global Flows              |
 |      [Bots (AI)](/_pages/Bots.md/)            | Import QA and Task Bot               |
 |      [Agent Handover](/_pages/AgentHandover.md/) |        Agent Handover Demo Use Case (WhatsApp)       |  
 |      [Finance](/_pages/Finance.md/)           | Finance Demo Use Case              |
