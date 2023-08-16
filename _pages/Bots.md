@@ -40,7 +40,7 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 
 
 5. Select Task_bot.json from the BOTs directory.
-6. Train and Make live
+6. Train and Make live.
 
 
 ## Files 
