@@ -9,6 +9,13 @@ layout: post
 Last modified: Thursday, 10 August 2023
 ```
 
+Before you start with adding the use cases to your demo tenant, you will need to have the following configuration already in your tenant:
+
+- Webex CC basic tenant configuration
+- Webex Connect WhatsApp and SMS configuration
+
+Please follow the below list to ensure that you have the needed configuration done. 
+
 ## Webex CC preparation:
 
 - Create an Inbound WhatsApp Entry Point 
