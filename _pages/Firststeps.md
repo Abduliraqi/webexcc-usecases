@@ -17,7 +17,7 @@ Please complete the below steps:
 -	Import the WhatsApp Demo selector Flow
 -	Import the generic Flows 
 
-
+The needed Files are at the end of this page under Flows.
 
 ### How to configure this Demo Use Case in your Tenant
 
