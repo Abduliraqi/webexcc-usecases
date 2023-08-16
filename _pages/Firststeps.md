@@ -6,7 +6,7 @@ layout: post
 ---
 
 ```
-Last modified: Thu, 15 August 2023
+Last modified: Thu, 16 August 2023
 ```
 
 ## Overview - First Steps and Preparation:
@@ -61,11 +61,11 @@ Import all tree flow into your Webex Connect Service. You can also create a sepa
 
 ## Flows 
 
-<p><a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Selector.workflow">WA_Selector.workflow</a></p> <br> 
-WA_Selector.workflow
-Task_Routed.workFlow
-Task_Modified.workflow
-Task_Closed.workflow
+<p><a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Selector.workflow">WhatsApp Selector.workflow</a></p> <br> 
+<p><a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/Task_Routed.workflow">Task Routed.workFlow</a></p> <br> 
+<p><a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/Task_Modified.workflow">Task Modified.workflow</a></p> <br> 
+<p><a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/Task_Closed.workflow">Task Closed.workflow</a></p> <br> 
+
 
 <br>
 <br>
