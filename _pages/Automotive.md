@@ -40,7 +40,9 @@ The Automotive Use Case shows the following:
 
 
 ## Flows 
-WA_Automotive.workflow
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Automotive.workflow">WA_Automotive.workflow</a><br> 
+
 
 <br>
 <br>

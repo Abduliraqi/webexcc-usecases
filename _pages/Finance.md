@@ -40,7 +40,9 @@ In addition it demonstrate the Deflection from bot to Call or WhatsApp Chat
 
 
 ## Flows 
-WA_Finance.workflow
+
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Credit.workflow">WA_Finance.workflow</a><br> 
 
 <br>
 <br>

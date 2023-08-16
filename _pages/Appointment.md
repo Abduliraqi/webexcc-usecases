@@ -46,7 +46,8 @@ The Appointment Management Use Case demonstrate:
 
 
 ## Flows 
-WA_Appointment.workflow
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Appointment.workflow">WA_Appointment.workflow</a><br> 
 
 <br>
 <br>

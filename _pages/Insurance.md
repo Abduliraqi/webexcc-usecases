@@ -42,7 +42,9 @@ The Insurance Use Case shows an Example how to Reporting an Accident using digit
 
 
 ## Flows 
-WA_Insurance.workflow
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Insurance.workflow">WA_Insurance.workflow</a><br> 
+
 
 <br>
 <br>

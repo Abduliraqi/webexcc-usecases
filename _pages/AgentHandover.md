@@ -36,7 +36,8 @@ This Use Case is an Example how to escalate from a digital Interaction to an Age
 
 
 ## Flows
-WA_Agent.workflow
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Agent.workflow">WA_Agent.workflow</a><br> 
 
 <br>
 <br>

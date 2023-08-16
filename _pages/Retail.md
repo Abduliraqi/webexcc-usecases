@@ -61,7 +61,9 @@ Following use cases are part of the Retails Demo:
 
 
 ## Files
-WA_Retail.workflow
+
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Retail.workflow">WA_Retail.workflow</a><br>
 
 <br>
 <br>
