@@ -26,7 +26,7 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 
 
 5. Select Overwrite existing articles
-6. Select StandaloneDemosQABot.json from the BOTs directory.
+6. Select QA_bot.json from the below BOTs directory.
 7. Train and Make live
 
 ### Task Bot
@@ -39,13 +39,14 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/task.png" width="80%"></center>
 
 
-5. Select StandaloneDemosTaskBot.json from the BOTs directory.
+5. Select Task_bot.json from the BOTs directory.
 6. Train and Make live
 
 
 ## Files 
-1. QA Bot
-2. Task Bot
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/bots/QA_Bot.json">QA Bot</a><br> 
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/bots/Task_Bot.json">Task Bot</a><br> 
 
 <br>
 <br>

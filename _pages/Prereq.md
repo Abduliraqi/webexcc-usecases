@@ -24,6 +24,8 @@ Please follow the below list to ensure that you have the needed configuration do
 - Create a WhatsApp queue 
 - Create a SMS queue 
 
+Please follow the Lab Guides for the initial Webex CC and Webex Connect configurations. 
+[https://webexcc.github.io/](https://webexcc.github.io/){:target="\_blank"}
 
 ## Webex Connect preparation:
 
