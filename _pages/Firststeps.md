@@ -60,6 +60,8 @@ Import all tree flow into your Webex Connect Service. You can also create a sepa
 <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Firststeps/genericflow.png" width="80%"></center>
 
 ## Flows 
+
+<p><a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Selector.workflow">WA_Selector.workflow</a></p> <br> 
 WA_Selector.workflow
 Task_Routed.workFlow
 Task_Modified.workflow
