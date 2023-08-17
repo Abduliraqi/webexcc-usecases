@@ -21,7 +21,7 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 |      [Appointment managment](/_pages/Appointment.md/)|      Appointment managment Demo Use Case         |
 |      [Retail](/_pages/Retail.md/)              |          Retail Demo Use Case     |
 |      [Insurance](/_pages/Insurance.md/)        |       Insurance Demo Use Case        | 
-|      [Call Deflection](/_pages/CallDeflect.md/)  |         Call Deflection Demo Use Case      |
+|      [Call Deflection](/_pages/CallDeflect.md/)  |         COMMING SOON! Call Deflection Demo Use Case      |
 
 
 <center><img src="assets/gitbook/images/webex.png" width="100"></center>
