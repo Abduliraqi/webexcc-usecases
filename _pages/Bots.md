@@ -22,7 +22,7 @@ This step is mandatory for the Use cases presented in this Portal. Most of the D
 4. Select the Articles menu and then click the three dots in the top right – choose Import from File 
    
   
-   <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/qaarticle.png" width="80%"></center>
+   <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/qaarticle.png" width="80%" height="50%"></center>
 
 5. Select Overwrite existing articles
 
