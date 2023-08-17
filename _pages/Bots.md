@@ -22,11 +22,11 @@ This step is mandatory for the Use cases presented in this Portal. Most of the D
 4. Select the Articles menu and then click the three dots in the top right – choose Import from File 
    
   
-   <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/qaarticle.png" width="300" height="300"></center>
+   <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/qaarticle.png" width="100" height="200"></center><br>
 
 5. Select Overwrite existing articles
 
-  <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/qaimport.png" width="300" height="300"></center>
+  <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/qaimport.png" width="300" height="200"></center><br>
 
 6. Select QA_bot.json from the below BOTs directory.
 7. Train and Make live
@@ -36,15 +36,17 @@ This step is mandatory for the Use cases presented in this Portal. Most of the D
 1. From Connect, open up the Bot Builder
 2. Select Task Bots, New Task Bot and Create Bot and give it a name [Task BOT Name] 
 3. Press Done
+
+
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/tasktraining.png" width="200" height="300"></center><br>
+
 4. Select the Training menu and then click the three dots in the top right – choose Import from JSON 
-
-<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/tasktraining.png" width="300" height="300"></center>
-
-<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/taskimport.png" width="300" height="300"></center>
+   
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/taskimport.png" width="300" height="200"></center><br>
 
 
-5. Select Task_bot.json from the BOTs directory.
-6. Train and Make live.
+1. Select Task_bot.json from the BOTs directory.
+2. Train and Make live.
 
 
 ## Files 
