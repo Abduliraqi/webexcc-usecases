@@ -14,8 +14,7 @@ Last modified: Thu, 10 August 2023
 Following use cases are part of the Retails Demo:
 - Order Status 
 - Find nearest store
-- Chat to Agent (requires the [Agent Handover](/_pages/AgentHandover.md/) use case)
-- Call Me - Call back request
+- Chat to Agent 
 
 
 
