@@ -11,10 +11,17 @@ Last modified: Thursday, 10 August 2023
 
 Before you start with adding the use cases to your demo tenant, you will need to have the following configuration already in your tenant:
 
+- Webex Connect WhatsApp, SMS and Bot configuration
 - Webex CC basic tenant configuration
-- Webex Connect WhatsApp and SMS configuration
 
 Please follow the below list to ensure that you have the needed configuration done. 
+
+## Webex Connect preparation:
+
+The following need to be set up in order for the main Connect flows to work:
+-	WhatsApp configured in the Connect Tenant.
+- SMS configured in the Connect Tenant.
+-	QA and Task Bots
 
 ## Webex CC preparation:
 
@@ -26,14 +33,6 @@ Please follow the below list to ensure that you have the needed configuration do
 
 Please follow the Lab Guides for the initial Webex CC and Webex Connect configurations. 
 [https://webexcc.github.io/](https://webexcc.github.io/){:target="\_blank"}
-
-## Webex Connect preparation:
-
-The following need to be set up in order for the main Connect flows to work:
--	WhatsApp configured in the Connect Tenant.
-- SMS configured in the Connect Tenant.
--	QA and Task Bots
-
 
 ## Webex Calling Pre-requisites:
 
