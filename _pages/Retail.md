@@ -39,7 +39,7 @@ Following use cases are part of the Retails Demo:
 - Make the following changes:
 - Edit the Custom Variables to add agent name and email address for the Callback API:
 
-<<<<<<< HEAD
+
 
 
 <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Retail/triggerword.png" width="80%"></center>
@@ -60,7 +60,9 @@ Following use cases are part of the Retails Demo:
 
 
 ## Files
-WA_Retail.workflow
+
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/ConnectFlows/WA_Retail.workflow">WA_Retail.workflow</a><br>
 
 <br>
 <br>
@@ -76,6 +78,6 @@ WA_Retail.workflow
     })
   </script>
 
-<p style="text-align:center"><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
+<p style="text-align:center"><strong>Congratulations, you have completed the configuration for this Demo Use Case! You can continue with the next one.</strong></p>
 		
 <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/webex-small.png" width="100"></center>

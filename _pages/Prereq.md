@@ -9,6 +9,13 @@ layout: post
 Last modified: Thursday, 10 August 2023
 ```
 
+Before you start with adding the use cases to your demo tenant, you will need to have the following configuration already in your tenant:
+
+- Webex CC basic tenant configuration
+- Webex Connect WhatsApp and SMS configuration
+
+Please follow the below list to ensure that you have the needed configuration done. 
+
 ## Webex CC preparation:
 
 - Create an Inbound WhatsApp Entry Point 
@@ -17,6 +24,8 @@ Last modified: Thursday, 10 August 2023
 - Create a WhatsApp queue 
 - Create a SMS queue 
 
+Please follow the Lab Guides for the initial Webex CC and Webex Connect configurations. 
+[https://webexcc.github.io/](https://webexcc.github.io/){:target="\_blank"}
 
 ## Webex Connect preparation:
 
@@ -61,6 +70,6 @@ For how to set up those elements, please refer to Labs 1 – 3 of the Webex CC L
     })
   </script>
 
-<p style="text-align:center"><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
+<p style="text-align:center"><strong>Congratulations, you have completed the configuration for this Demo Use Case! You can continue with the next one.</strong></p>
 		
 <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/webex-small.png" width="100"></center>

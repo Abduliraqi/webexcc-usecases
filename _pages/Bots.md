@@ -11,8 +11,8 @@ Last modified: Thu, 10 August 2023
 
 ## Import QA and Task Bots:
 
-In this section you will important the provided QA and Task Bot in your Webex Bot Builder.
-
+In this section you will import the provided QA and Task Bot in your Webex Bot Builder.
+This step is mandatory for the Use cases presented in this Portal. Most of the Demos using weather the QA Bot or Task Bot. 
 
 ### QA Bot
 
@@ -22,11 +22,13 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 4. Select the Articles menu and then click the three dots in the top right – choose Import from File 
    
   
-   <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/QA.png" width="80%"></center>
-
+   <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/qaarticle.png" width="100" height="200"></center><br>
 
 5. Select Overwrite existing articles
-6. Select StandaloneDemosQABot.json from the BOTs directory.
+
+  <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/qaimport.png" width="300" height="200"></center><br>
+
+6. Select QA_bot.json from the below BOTs directory.
 7. Train and Make live
 
 ### Task Bot
@@ -34,18 +36,25 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
 1. From Connect, open up the Bot Builder
 2. Select Task Bots, New Task Bot and Create Bot and give it a name [Task BOT Name] 
 3. Press Done
+
+
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/tasktraining.png" width="200" height="300"></center><br>
+
 4. Select the Training menu and then click the three dots in the top right – choose Import from JSON 
+   
+<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/taskimport.png" width="300" height="200"></center><br>
 
-<center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/Bots/task.png" width="80%"></center>
 
-
-5. Select StandaloneDemosTaskBot.json from the BOTs directory.
-6. Train and Make live
+1. Select Task_bot.json from the BOTs directory.
+2. Train and Make live.
 
 
 ## Files 
-1. QA Bot
-2. Task Bot
+
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/BOTs/QA_Bot.json" download>QA Bot</a><br> 
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/BOTs/Task_Bot.json">Task Bot</a><br> 
+
+
 
 <br>
 <br>
@@ -61,7 +70,7 @@ In this section you will important the provided QA and Task Bot in your Webex Bo
     })
   </script>
 
-<p style="text-align:center"><strong>Congratulations, you have completed this lab! You can continue with the next one.</strong></p>
+<p style="text-align:center"><strong>Congratulations, you have completed the configuration for this Demo Use Case! You can continue with the next one.</strong></p>
 		
 <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/webex-small.png" width="100"></center>
 
