@@ -1,7 +1,7 @@
 ---
 title: Retail
 author: Cisco CC TSA Team
-date: 2023-08-10
+date: 2023-08-08
 layout: post
 ---
 
