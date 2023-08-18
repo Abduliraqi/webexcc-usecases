@@ -18,6 +18,7 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 |      [Bots (AI)](/_pages/Bots.md/)            | Import QA and Task Bot               |
 |      [Agent Handover](/_pages/AgentHandover.md/) |        Agent Handover Demo Use Case (WhatsApp)       |  
 |      [Finance](/_pages/Finance.md/)           | Finance Demo Use Case              |
+|      [Automotive](/_pages/Automotive.md/)           | Automotive Demo Use Case              |
 |      [Appointment managment](/_pages/Appointment.md/)|      Appointment managment Demo Use Case         |
 |      [Retail](/_pages/Retail.md/)              |          Retail Demo Use Case     |
 |      [Insurance](/_pages/Insurance.md/)        |       Insurance Demo Use Case        | 
