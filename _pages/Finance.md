@@ -20,8 +20,8 @@ In addition it demonstrate the Deflection from bot to Call or WhatsApp Chat
 > The video below shows a demo about this Use Case:
 
 {: .block-tip }
-<div style="padding-bottom:60.25%; position:relative; display:block; width: 100%">
-	<iframe src="https://app.vidcast.io/share/315cf3d2-706b-4328-945a-b6e23850a193" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
+<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+	<iframe src="https://app.vidcast.io/share/embed/315cf3d2-706b-4328-945a-b6e23850a193" width="100%" height="100%" title="Finance Demo" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0;border: solid; border-radius:12px;"></iframe>
 </div>
 
 ### How to configure this Demo Use Case in your Tenant

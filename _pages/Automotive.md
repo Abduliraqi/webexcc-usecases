@@ -23,10 +23,9 @@ The Automotive Use Case shows the following:
 > The video below shows a demo about this Use Case:
 
 {: .block-tip }
-<div style="padding-bottom:60.25%; position:relative; display:block; width: 100%">
-	<iframe src="https://app.vidcast.io/share/e280e48b-bb9f-4335-a1fa-95c39427ec33" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
+<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+	<iframe src="https://app.vidcast.io/share/embed/e280e48b-bb9f-4335-a1fa-95c39427ec33" width="100%" height="100%" title="Automotive Demo" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0;border: solid; border-radius:12px;"></iframe>
 </div>
-
 ### How to configure this Demo Use Case in your Tenant
 
 1.	**WA_Automotive.workflow**

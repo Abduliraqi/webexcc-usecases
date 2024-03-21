@@ -20,8 +20,8 @@ This Use Case is an Example how to escalate from a digital Interaction to an Age
 > The video below shows an Agent Experience example:
 
 {: .block-tip }
-<div style="padding-bottom:60.25%; position:relative; display:block; width: 100%">
-	<iframe src="https://app.vidcast.io/share/44b8f790-0706-4a5b-bbf3-5707e58c45f3" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
+<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+	<iframe src="https://app.vidcast.io/share/embed/44b8f790-0706-4a5b-bbf3-5707e58c45f3" width="100%" height="100%" title="Agent Experience" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0;border: solid; border-radius:12px;"></iframe>
 </div>
 
 ### How to configure this Demo Use Case in your Tenant
