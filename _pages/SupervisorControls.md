@@ -24,9 +24,9 @@ This helps to simplify CC Management and allows Supervisors to control only thei
 	<iframe src="https://app.vidcast.io/share/e280e48b-bb9f-4335-a1fa-95c39427ec33" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
 </div>
 
-### How to configure this Demo Use Case in your Tenant
+### How to configure this Demo Use Case in your Tenant <br>
 
-1.	**Please download and follow the Guide below**
+**Please download and follow the Installation Guide below**
 
 
 
@@ -40,8 +40,7 @@ This helps to simplify CC Management and allows Supervisors to control only thei
 
 
 <br>
-<br>
-<br>
+
 ---
 
   <script>
@@ -54,6 +53,6 @@ This helps to simplify CC Management and allows Supervisors to control only thei
     })
   </script>
 
-<p style="text-align:center"><strong>Congratulations, you have completed the configuration for this Demo Use Case! You can continue with the next one.</strong></p>
+
 		
 <center><img src="https://webexcctsa.github.io/wxcc-usecases/assets/gitbook/images/webex-small.png" width="100"></center>
