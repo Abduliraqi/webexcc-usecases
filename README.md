@@ -22,7 +22,7 @@ Welcome to the Webex Use Case Repository. Here you will find step-by-step guides
 |      [Appointment managment](/_pages/Appointment.md/)|      Appointment managment Demo Use Case         |
 |      [Retail](/_pages/Retail.md/)              |          Retail Demo Use Case     |
 |      [Insurance](/_pages/Insurance.md/)        |       Insurance Demo Use Case        | 
-|      [Supervisor Controls](/_pages/CallDeflect.md/)  |        An easy why of Supervisor CC Management      |
+|      [Supervisor Controls](/_pages/SupervisorControls.md/)  |        An easy why of Supervisor CC Management      |
 |      [Call Me](/_pages/CallDeflect.md/)  |         COMING SOON! Call Me Demo Use Case      |
 
 
