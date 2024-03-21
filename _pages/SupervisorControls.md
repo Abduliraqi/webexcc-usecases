@@ -20,13 +20,6 @@ This helps to simplify CC Management and allows Supervisors to control only thei
 > The video below shows a demo about this Use Case:
 
 {: .block-tip }
-<div style="padding-bottom:60.25%; position:relative; display:block; width: 100%">
-	<iframe src="https://app.vidcast.io/share/e280e48b-bb9f-4335-a1fa-95c39427ec33" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
-</div>
-
-
-
-
 <div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
 	<iframe src="https://app.vidcast.io/share/embed/8786135c-5849-45b5-9ec7-947eca85d5a3" width="100%" height="100%" title="Mobile-WhatsApp Video Demo" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0;border: solid; border-radius:12px;"></iframe>
 </div>
