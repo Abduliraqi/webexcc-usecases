@@ -23,8 +23,8 @@ The Appointment Management Use Case demonstrate:
 > The video below shows a demo about this Use Case:
 
 {: .block-tip }
-<div style="padding-bottom:60.25%; position:relative; display:block; width: 100%">
-	<iframe src="https://app.vidcast.io/share/959c34cd-e8b7-48d4-8c4c-93236832d513" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
+<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+	<iframe src="https://app.vidcast.io/share/embed/959c34cd-e8b7-48d4-8c4c-93236832d513" width="100%" height="100%" title="Appointment Management Demo" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0;border: solid; border-radius:12px;"></iframe>
 </div>
 
 ### How to configure this Demo Use Case in your Tenant

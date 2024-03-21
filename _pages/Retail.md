@@ -24,8 +24,8 @@ Following use cases are part of the Retails Demo:
 > The video below shows a demo about this Use Case:
 
 {: .block-tip }
-<div style="padding-bottom:60.25%; position:relative; display:block; width: 100%">
-	<iframe src="https://app.vidcast.io/share/ad512769-3b5e-48e6-910f-57e5247aeae3" width="100%" height="100%" title="Station Login" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
+<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+	<iframe src="https://app.vidcast.io/share/embed/ad512769-3b5e-48e6-910f-57e5247aeae3" width="100%" height="100%" title="Retail Demo" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0;border: solid; border-radius:12px;"></iframe>
 </div>
 
 ### How to configure this Demo Use Case in your Tenant
