@@ -21,7 +21,7 @@ This helps to simplify CC Management and allows Supervisors to control only thei
 
 {: .block-tip }
 <div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
-	<iframe src="https://app.vidcast.io/share/embed/8786135c-5849-45b5-9ec7-947eca85d5a3" width="100%" height="100%" title="Mobile-WhatsApp Video Demo" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0;border: solid; border-radius:12px;"></iframe>
+	<iframe src="https://app.vidcast.io/share/embed/29f76784-3887-4165-82df-120c1eaff683" width="100%" height="100%" title="March 21, 2024 at 3:28 PM" frameborder="0" loading="lazy" allowfullscreen style="position:absolute; top:0; left: 0;border: solid; border-radius:12px;"></iframe>
 </div>
 
 ### How to configure this Demo Use Case in your Tenant <br>
