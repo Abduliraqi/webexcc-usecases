@@ -6,13 +6,13 @@ layout: post
 ---
 
 ```
-Last modified: Thu, 10 August 2023
+Last modified: Thu, 21 March 2024
 ```
 
 ## Overview of the Use Case:
 
-This Use Case is the Template page
-
+A widget to allow Supervisors to manage routing and messaging from the Supervisor (or Agent) Desktop.
+This helps to simplify CC Management and allows Supervisors to control only their own Flows.
 
 
 ### Demo Video
@@ -26,16 +26,20 @@ This Use Case is the Template page
 
 ### How to configure this Demo Use Case in your Tenant
 
-1.	**WA_Selector.workflow**
-2. Create a new flow and Import from WA_Selector.workflow in the ConnectFlows directory.
-3. Make the following changes:
+1.	**Please download and follow the Guide below**
 
 
 
-## Flows 
-CallDeflection_voice.workflow
-CallDeflection_digital.workflow
 
+## Documents 
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/Supervisorcontrols/Supervisor Controls.pdf">Supervisor Controls Installation Guide</a><br> 
+
+
+<br>
+<a href="https://webexcctsa.github.io/wxcc-usecases/assets/Supervisorcontrols/script.js">script.js</a><br> 
+
+
+<br>
 <br>
 <br>
 ---
