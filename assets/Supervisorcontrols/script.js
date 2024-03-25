@@ -121,9 +121,8 @@ class SupervisorControls extends HTMLElement {
     var context=this.shadowRoot;
     var username=this.User;
     var passphrase=this.passPhrase;
+    var triggerurl=this.triggerURL;
     var access_token;
-    var triggerurl="<Your Trigger URL>";
-    var tokenname="<Your token name>";
 
     //Get Global Variables
     GetAccessToken();
@@ -140,7 +139,7 @@ class SupervisorControls extends HTMLElement {
       };
       console.log(requestOptions);
 
-      fetch(triggerurl+"?name="+tokenname, requestOptions)
+      fetch(triggerurl, requestOptions)
         .then((response) => response.text())
         .then((result) => GetGlobalVariables(JSON.parse(result)))
         .catch((error) => console.log("[TEXTWIDGET] - ERROR - ", error));
@@ -205,10 +204,10 @@ class SupervisorControls extends HTMLElement {
             description[i]=gvname[i];
         }
         
-        if (result.data[i].variableType=="Boolean") {
+        if (result.data[i].variableType=="Boolean" && result.data[i].active) {
           booleandata.push ({ name: description[i], Value: defaultValue[i], CheckName:checkboxname[i], SubmitName:submitname[i] }); 
         }      
-        if (result.data[i].variableType=="String") {
+        if (result.data[i].variableType=="String" && result.data[i].active) {
           stringdata.push ({ name: description[i], Value: defaultValue[i], TextAreaName:textareaname[i], SubmitName:submitname[i], RemainingName:remainingname[i]  }); 
         }           
       }
