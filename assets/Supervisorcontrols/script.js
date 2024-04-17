@@ -351,7 +351,8 @@ class SupervisorControls extends HTMLElement {
         defaultValue:defaultValue[index],
         id:gvid[index],
         name:gvname[index],
-        description:description[index]
+        description:description[index],
+        sensitive: false
       });
 
       const requestOptions = {
