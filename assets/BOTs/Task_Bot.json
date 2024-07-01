@@ -3,7 +3,7 @@
 		{
 			"color": "#156990",
 			"data": {
-				"pattern": "\\b\\d{5}\\b"
+				"pattern": "^[A-Za-z]{2}\\d{3}[A-Za-z]{2}$"
 			},
 			"name": "Postcode",
 			"system_entity": false,
@@ -36,7 +36,8 @@
 	],
 	"intents": [
 		{
-			"name": "Credit",
+			"intent_id": "1",
+			"name": "AbdulDemoLimit",
 			"entities": [
 				{
 					"counter": 3,
@@ -63,14 +64,31 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "AbdulDemoLimit"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "AbdulDemoLimit"
+						},
+						{
+							"entities": [],
+							"utterance": "adam demo limit"
+						},
+						{
+							"entities": [],
+							"utterance": "AdamFCDemoLimit"
+						},
+						{
+							"entities": [],
+							"utterance": "AbdulDemoLimit"
+						}
+					]
 				}
-			]
+			}
 		},
 		{
+			"intent_id": "11",
 			"name": "Go There",
 			"entities": [],
 			"template_key": "GoThere",
@@ -79,14 +97,23 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "Go There"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Go There"
+						},
+						{
+							"entities": [],
+							"utterance": "Go There"
+						}
+					]
 				}
-			]
+			}
 		},
 		{
+			"intent_id": "7",
 			"name": "TestDrive",
 			"entities": [],
 			"template_key": "TestDrive",
@@ -95,18 +122,27 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "Book a test drive"
-				},
-				{
-					"entities": [],
-					"utterance": "TestDrive"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "TestDrive"
+						},
+						{
+							"entities": [],
+							"utterance": "Book a test drive"
+						},
+						{
+							"entities": [],
+							"utterance": "TestDrive"
+						}
+					]
 				}
-			]
+			}
 		},
 		{
+			"intent_id": "10",
 			"name": "WhatsApp",
 			"entities": [],
 			"template_key": "Agent handover",
@@ -115,14 +151,23 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "WhatsApp"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "WhatsApp"
+						},
+						{
+							"entities": [],
+							"utterance": "WhatsApp"
+						}
+					]
 				}
-			]
+			}
 		},
 		{
+			"intent_id": "8",
 			"name": "Location Received",
 			"entities": [],
 			"template_key": "LocationReceived",
@@ -131,14 +176,23 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "Location Received"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Location Received"
+						},
+						{
+							"entities": [],
+							"utterance": "Location Received"
+						}
+					]
 				}
-			]
+			}
 		},
 		{
+			"intent_id": "6",
 			"name": "Get Brochure",
 			"entities": [],
 			"template_key": "Get Brochure",
@@ -147,14 +201,23 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "Get Brochure"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Get Brochure"
+						},
+						{
+							"entities": [],
+							"utterance": "Get Brochure"
+						}
+					]
 				}
-			]
+			}
 		},
 		{
+			"intent_id": "5",
 			"name": "Show me the range",
 			"entities": [],
 			"template_key": "ShowRange",
@@ -163,22 +226,31 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "ShowRange"
-				},
-				{
-					"entities": [],
-					"utterance": "See the EcoWagon range"
-				},
-				{
-					"entities": [],
-					"utterance": "Show me the range"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Show me the range"
+						},
+						{
+							"entities": [],
+							"utterance": "ShowRange"
+						},
+						{
+							"entities": [],
+							"utterance": "See the EcoWagon range"
+						},
+						{
+							"entities": [],
+							"utterance": "Show me the range"
+						}
+					]
 				}
-			]
+			}
 		},
 		{
+			"intent_id": "4",
 			"name": "Automotive",
 			"entities": [],
 			"template_key": "New Car",
@@ -187,18 +259,27 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "AbdulDemoAutomotive"
-				},
-				{
-					"entities": [],
-					"utterance": "Automotive"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Automotive"
+						},
+						{
+							"entities": [],
+							"utterance": "AbdulDemoAutomotive"
+						},
+						{
+							"entities": [],
+							"utterance": "Automotive"
+						}
+					]
 				}
-			]
+			}
 		},
 		{
+			"intent_id": "3",
 			"name": "Call Me",
 			"entities": [],
 			"template_key": "Call Me",
@@ -207,429 +288,20 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "Call Me"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Call Me"
+						},
+						{
+							"entities": [],
+							"utterance": "Call Me"
+						}
+					]
 				}
-			]
-		},
-		{
-			"name": "Limit Rejected",
-			"entities": [],
-			"template_key": "Limit Rejected",
-			"reset_state": false,
-			"end_conversation": false,
-			"exit_context": [],
-			"entry_context": [],
-			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "Limit Rejected"
-				}
-			]
-		},
-		{
-			"name": "Thank you",
-			"entities": [],
-			"template_key": "Thank you",
-			"reset_state": true,
-			"end_conversation": false,
-			"exit_context": [],
-			"entry_context": [],
-			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "Thank you"
-				},
-				{
-					"entities": [],
-					"utterance": "Many thanks"
-				},
-				{
-					"entities": [],
-					"utterance": "Kthx"
-				},
-				{
-					"entities": [],
-					"utterance": "I appreciate that"
-				},
-				{
-					"entities": [],
-					"utterance": "Thx"
-				},
-				{
-					"entities": [],
-					"utterance": "Thnx"
-				},
-				{
-					"entities": [],
-					"utterance": "Thanks bot"
-				},
-				{
-					"entities": [],
-					"utterance": "Thanks a lot"
-				},
-				{
-					"entities": [],
-					"utterance": "Thank you"
-				},
-				{
-					"entities": [],
-					"utterance": "Thanks"
-				}
-			]
-		},
-		{
-			"name": "Goodbye",
-			"entities": [],
-			"template_key": "Goodbye",
-			"reset_state": true,
-			"end_conversation": false,
-			"exit_context": [],
-			"entry_context": [],
-			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "Goodbye"
-				},
-				{
-					"entities": [],
-					"utterance": "Adieu"
-				},
-				{
-					"entities": [],
-					"utterance": "Adios"
-				},
-				{
-					"entities": [],
-					"utterance": "Bye"
-				},
-				{
-					"entities": [],
-					"utterance": "Good bye"
-				},
-				{
-					"entities": [],
-					"utterance": "Catch you later"
-				},
-				{
-					"entities": [],
-					"utterance": "G2G"
-				},
-				{
-					"entities": [],
-					"utterance": "Ciao"
-				},
-				{
-					"entities": [],
-					"utterance": "CYA"
-				},
-				{
-					"entities": [],
-					"utterance": "C-ya"
-				},
-				{
-					"entities": [],
-					"utterance": "Fare thee well"
-				},
-				{
-					"entities": [],
-					"utterance": "Catch ya later"
-				},
-				{
-					"entities": [],
-					"utterance": "gotta go"
-				},
-				{
-					"entities": [],
-					"utterance": "See you later"
-				},
-				{
-					"entities": [],
-					"utterance": "See ya later"
-				}
-			]
-		},
-		{
-			"name": "Greetings",
-			"entities": [],
-			"template_key": "Greetings",
-			"reset_state": true,
-			"end_conversation": false,
-			"exit_context": [],
-			"entry_context": [],
-			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "Hello"
-				},
-				{
-					"entities": [],
-					"utterance": "Hello there"
-				},
-				{
-					"entities": [],
-					"utterance": "Ahoy"
-				},
-				{
-					"entities": [],
-					"utterance": "Hey pal"
-				},
-				{
-					"entities": [],
-					"utterance": "Greetings and salutations"
-				},
-				{
-					"entities": [],
-					"utterance": "G'day"
-				},
-				{
-					"entities": [],
-					"utterance": "Good day"
-				},
-				{
-					"entities": [],
-					"utterance": "Heya"
-				},
-				{
-					"entities": [],
-					"utterance": "Well hey there"
-				},
-				{
-					"entities": [],
-					"utterance": "Yo dude"
-				},
-				{
-					"entities": [],
-					"utterance": "Hey-hey"
-				},
-				{
-					"entities": [],
-					"utterance": "Hi"
-				},
-				{
-					"entities": [],
-					"utterance": "Hi there!"
-				},
-				{
-					"entities": [],
-					"utterance": "Hiya"
-				},
-				{
-					"entities": [],
-					"utterance": "Howdy"
-				},
-				{
-					"entities": [],
-					"utterance": "evenin"
-				},
-				{
-					"entities": [],
-					"utterance": "Good evening"
-				},
-				{
-					"entities": [],
-					"utterance": "Good morning sunshine"
-				},
-				{
-					"entities": [],
-					"utterance": "Mornin'"
-				},
-				{
-					"entities": [],
-					"utterance": "Good morning"
-				},
-				{
-					"entities": [],
-					"utterance": "Good night"
-				},
-				{
-					"entities": [],
-					"utterance": "G'night"
-				},
-				{
-					"entities": [],
-					"utterance": "Sweet dreams"
-				},
-				{
-					"entities": [],
-					"utterance": "Nighty night"
-				}
-			]
-		},
-		{
-			"name": "Not helpful",
-			"entities": [],
-			"template_key": "Not helpful",
-			"reset_state": true,
-			"end_conversation": false,
-			"exit_context": [],
-			"entry_context": [],
-			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "That was unhelpful"
-				},
-				{
-					"entities": [],
-					"utterance": "That's inaccurate"
-				},
-				{
-					"entities": [],
-					"utterance": "That was a terrible answer"
-				},
-				{
-					"entities": [],
-					"utterance": "That wasn't true"
-				},
-				{
-					"entities": [],
-					"utterance": "Not what I asked"
-				},
-				{
-					"entities": [],
-					"utterance": "That's not a good answer"
-				},
-				{
-					"entities": [],
-					"utterance": "That's not relevant"
-				},
-				{
-					"entities": [],
-					"utterance": "Not true"
-				},
-				{
-					"entities": [],
-					"utterance": "Not even close"
-				},
-				{
-					"entities": [],
-					"utterance": "That was a stupid answer"
-				},
-				{
-					"entities": [],
-					"utterance": "Inaccurate"
-				},
-				{
-					"entities": [],
-					"utterance": "FALSE"
-				},
-				{
-					"entities": [],
-					"utterance": "That's wrong"
-				},
-				{
-					"entities": [],
-					"utterance": "Answers are not very good"
-				},
-				{
-					"entities": [],
-					"utterance": "Answers are irrelevant"
-				},
-				{
-					"entities": [],
-					"utterance": "Responses aren't relevant"
-				},
-				{
-					"entities": [],
-					"utterance": "Responses are untrue"
-				},
-				{
-					"entities": [],
-					"utterance": "Responses are dumb"
-				},
-				{
-					"entities": [],
-					"utterance": "Responses are stupid"
-				},
-				{
-					"entities": [],
-					"utterance": "Didn't answer my question"
-				},
-				{
-					"entities": [],
-					"utterance": "Wrong answer"
-				},
-				{
-					"entities": [],
-					"utterance": "Explain yourself"
-				},
-				{
-					"entities": [],
-					"utterance": "I'm confused"
-				},
-				{
-					"entities": [],
-					"utterance": "I don't understand"
-				},
-				{
-					"entities": [],
-					"utterance": "I don't get it"
-				},
-				{
-					"entities": [],
-					"utterance": "That made no sense"
-				},
-				{
-					"entities": [],
-					"utterance": "That didn't make sense"
-				},
-				{
-					"entities": [],
-					"utterance": "You are confusing me"
-				}
-			]
-		},
-		{
-			"intent_id": "none",
-			"name": "Default fallback intent",
-			"entities": [],
-			"template_key": "Fallback message",
-			"reset_state": true,
-			"end_conversation": false,
-			"exit_context": [],
-			"entry_context": [],
-			"auto_complete_entities": false,
-			"utterances": []
-		},
-		{
-			"intent_id": "help",
-			"name": "Help",
-			"entities": [],
-			"template_key": "Help message",
-			"reset_state": true,
-			"end_conversation": false,
-			"exit_context": [],
-			"entry_context": [],
-			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "What can you do?"
-				},
-				{
-					"entities": [],
-					"utterance": "How can you help?"
-				},
-				{
-					"entities": [],
-					"utterance": "Help"
-				},
-				{
-					"entities": [],
-					"utterance": "What do you do?"
-				},
-				{
-					"entities": [],
-					"utterance": "Could you please help me"
-				}
-			]
+			}
 		},
 		{
 			"intent_id": "agent",
@@ -641,1089 +313,1271 @@
 			"exit_context": [],
 			"entry_context": [],
 			"auto_complete_entities": false,
-			"utterances": [
-				{
-					"entities": [],
-					"utterance": "CHAT"
-				},
-				{
-					"entities": [],
-					"utterance": "Can I talk to a human?"
-				},
-				{
-					"entities": [],
-					"utterance": "agent"
-				},
-				{
-					"entities": [],
-					"utterance": "human"
-				},
-				{
-					"entities": [],
-					"utterance": "Connect me to a human"
-				},
-				{
-					"entities": [],
-					"utterance": "Chat with agent"
-				},
-				{
-					"entities": [],
-					"utterance": "Can I speak with someone?"
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Talk to an agent"
+						},
+						{
+							"entities": [],
+							"utterance": "CHAT"
+						},
+						{
+							"entities": [],
+							"utterance": "Can I talk to a human?"
+						},
+						{
+							"entities": [],
+							"utterance": "agent"
+						},
+						{
+							"entities": [],
+							"utterance": "human"
+						},
+						{
+							"entities": [],
+							"utterance": "Connect me to a human"
+						},
+						{
+							"entities": [],
+							"utterance": "Chat with agent"
+						},
+						{
+							"entities": [],
+							"utterance": "Can I speak with someone?"
+						}
+					]
 				}
-			]
+			}
+		},
+		{
+			"intent_id": "2",
+			"name": "Limit Rejected",
+			"entities": [],
+			"template_key": "Limit Rejected",
+			"reset_state": false,
+			"end_conversation": false,
+			"exit_context": [],
+			"entry_context": [],
+			"auto_complete_entities": false,
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Limit Rejected"
+						},
+						{
+							"entities": [],
+							"utterance": "Limit Rejected"
+						}
+					]
+				}
+			}
+		},
+		{
+			"intent_id": "thank_you",
+			"name": "Thank you",
+			"entities": [],
+			"template_key": "Thank you",
+			"reset_state": true,
+			"end_conversation": false,
+			"exit_context": [],
+			"entry_context": [],
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Thank you"
+						},
+						{
+							"entities": [],
+							"utterance": "Thank you"
+						},
+						{
+							"entities": [],
+							"utterance": "Many thanks"
+						},
+						{
+							"entities": [],
+							"utterance": "Kthx"
+						},
+						{
+							"entities": [],
+							"utterance": "I appreciate that"
+						},
+						{
+							"entities": [],
+							"utterance": "Thx"
+						},
+						{
+							"entities": [],
+							"utterance": "Thnx"
+						},
+						{
+							"entities": [],
+							"utterance": "Thanks bot"
+						},
+						{
+							"entities": [],
+							"utterance": "Thanks a lot"
+						},
+						{
+							"entities": [],
+							"utterance": "Thank you"
+						},
+						{
+							"entities": [],
+							"utterance": "Thanks"
+						}
+					]
+				}
+			}
+		},
+		{
+			"intent_id": "help",
+			"name": "Help",
+			"entities": [],
+			"template_key": "Help message",
+			"reset_state": true,
+			"end_conversation": false,
+			"exit_context": [],
+			"entry_context": [],
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Help"
+						},
+						{
+							"entities": [],
+							"utterance": "What can you do?"
+						},
+						{
+							"entities": [],
+							"utterance": "How can you help?"
+						},
+						{
+							"entities": [],
+							"utterance": "Help"
+						},
+						{
+							"entities": [],
+							"utterance": "What do you do?"
+						},
+						{
+							"entities": [],
+							"utterance": "Could you please help me"
+						}
+					]
+				}
+			}
+		},
+		{
+			"intent_id": "none",
+			"name": "Default fallback intent",
+			"entities": [],
+			"template_key": "Fallback message",
+			"reset_state": true,
+			"end_conversation": false,
+			"exit_context": [],
+			"entry_context": [],
+			"auto_complete_entities": false,
+			"variants": {
+				"en": {
+					"utterances": []
+				}
+			}
+		},
+		{
+			"intent_id": "good_bye",
+			"name": "Goodbye",
+			"entities": [],
+			"template_key": "Goodbye",
+			"reset_state": true,
+			"end_conversation": false,
+			"exit_context": [],
+			"entry_context": [],
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Goodbye"
+						},
+						{
+							"entities": [],
+							"utterance": "Goodbye"
+						},
+						{
+							"entities": [],
+							"utterance": "Adieu"
+						},
+						{
+							"entities": [],
+							"utterance": "Adios"
+						},
+						{
+							"entities": [],
+							"utterance": "Bye"
+						},
+						{
+							"entities": [],
+							"utterance": "Good bye"
+						},
+						{
+							"entities": [],
+							"utterance": "Catch you later"
+						},
+						{
+							"entities": [],
+							"utterance": "G2G"
+						},
+						{
+							"entities": [],
+							"utterance": "Ciao"
+						},
+						{
+							"entities": [],
+							"utterance": "CYA"
+						},
+						{
+							"entities": [],
+							"utterance": "C-ya"
+						},
+						{
+							"entities": [],
+							"utterance": "Fare thee well"
+						},
+						{
+							"entities": [],
+							"utterance": "Catch ya later"
+						},
+						{
+							"entities": [],
+							"utterance": "gotta go"
+						},
+						{
+							"entities": [],
+							"utterance": "See you later"
+						},
+						{
+							"entities": [],
+							"utterance": "See ya later"
+						}
+					]
+				}
+			}
+		},
+		{
+			"intent_id": "greetings",
+			"name": "Greetings",
+			"entities": [],
+			"template_key": "Greetings",
+			"reset_state": true,
+			"end_conversation": false,
+			"exit_context": [],
+			"entry_context": [],
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Greetings"
+						},
+						{
+							"entities": [],
+							"utterance": "Hello"
+						},
+						{
+							"entities": [],
+							"utterance": "Hello there"
+						},
+						{
+							"entities": [],
+							"utterance": "Ahoy"
+						},
+						{
+							"entities": [],
+							"utterance": "Hey pal"
+						},
+						{
+							"entities": [],
+							"utterance": "Greetings and salutations"
+						},
+						{
+							"entities": [],
+							"utterance": "G'day"
+						},
+						{
+							"entities": [],
+							"utterance": "Good day"
+						},
+						{
+							"entities": [],
+							"utterance": "Heya"
+						},
+						{
+							"entities": [],
+							"utterance": "Well hey there"
+						},
+						{
+							"entities": [],
+							"utterance": "Yo dude"
+						},
+						{
+							"entities": [],
+							"utterance": "Hey-hey"
+						},
+						{
+							"entities": [],
+							"utterance": "Hi"
+						},
+						{
+							"entities": [],
+							"utterance": "Hi there!"
+						},
+						{
+							"entities": [],
+							"utterance": "Hiya"
+						},
+						{
+							"entities": [],
+							"utterance": "Howdy"
+						},
+						{
+							"entities": [],
+							"utterance": "evenin"
+						},
+						{
+							"entities": [],
+							"utterance": "Good evening"
+						},
+						{
+							"entities": [],
+							"utterance": "Good morning sunshine"
+						},
+						{
+							"entities": [],
+							"utterance": "Mornin'"
+						},
+						{
+							"entities": [],
+							"utterance": "Good morning"
+						},
+						{
+							"entities": [],
+							"utterance": "Good night"
+						},
+						{
+							"entities": [],
+							"utterance": "G'night"
+						},
+						{
+							"entities": [],
+							"utterance": "Sweet dreams"
+						},
+						{
+							"entities": [],
+							"utterance": "Nighty night"
+						}
+					]
+				}
+			}
+		},
+		{
+			"intent_id": "not_helpful",
+			"name": "Not helpful",
+			"entities": [],
+			"template_key": "Not helpful",
+			"reset_state": true,
+			"end_conversation": false,
+			"exit_context": [],
+			"entry_context": [],
+			"variants": {
+				"en": {
+					"utterances": [
+						{
+							"entities": [],
+							"utterance": "Not helpful"
+						},
+						{
+							"entities": [],
+							"utterance": "That was unhelpful"
+						},
+						{
+							"entities": [],
+							"utterance": "That's inaccurate"
+						},
+						{
+							"entities": [],
+							"utterance": "That was a terrible answer"
+						},
+						{
+							"entities": [],
+							"utterance": "That wasn't true"
+						},
+						{
+							"entities": [],
+							"utterance": "Not what I asked"
+						},
+						{
+							"entities": [],
+							"utterance": "That's not a good answer"
+						},
+						{
+							"entities": [],
+							"utterance": "That's not relevant"
+						},
+						{
+							"entities": [],
+							"utterance": "Not true"
+						},
+						{
+							"entities": [],
+							"utterance": "Not even close"
+						},
+						{
+							"entities": [],
+							"utterance": "That was a stupid answer"
+						},
+						{
+							"entities": [],
+							"utterance": "Inaccurate"
+						},
+						{
+							"entities": [],
+							"utterance": "FALSE"
+						},
+						{
+							"entities": [],
+							"utterance": "That's wrong"
+						},
+						{
+							"entities": [],
+							"utterance": "Answers are not very good"
+						},
+						{
+							"entities": [],
+							"utterance": "Answers are irrelevant"
+						},
+						{
+							"entities": [],
+							"utterance": "Responses aren't relevant"
+						},
+						{
+							"entities": [],
+							"utterance": "Responses are untrue"
+						},
+						{
+							"entities": [],
+							"utterance": "Responses are dumb"
+						},
+						{
+							"entities": [],
+							"utterance": "Responses are stupid"
+						},
+						{
+							"entities": [],
+							"utterance": "Didn't answer my question"
+						},
+						{
+							"entities": [],
+							"utterance": "Wrong answer"
+						},
+						{
+							"entities": [],
+							"utterance": "Explain yourself"
+						},
+						{
+							"entities": [],
+							"utterance": "I'm confused"
+						},
+						{
+							"entities": [],
+							"utterance": "I don't understand"
+						},
+						{
+							"entities": [],
+							"utterance": "I don't get it"
+						},
+						{
+							"entities": [],
+							"utterance": "That made no sense"
+						},
+						{
+							"entities": [],
+							"utterance": "That didn't make sense"
+						},
+						{
+							"entities": [],
+							"utterance": "You are confusing me"
+						}
+					]
+				}
+			}
 		}
 	],
 	"responses": {
 		"Agent handover": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Please wait while I redirect you to one of our team members."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Please wait while I redirect you to one of our team members."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Please wait while I redirect you to one of our team members."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"CCV": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"First, please enter the 3 numbers on the back of your card ending 4321."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"First, please enter the 3 numbers on the back of your card ending 4321."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"First, please enter the 3 numbers on the back of your card ending 4321."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Call Me": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Ok, no problem. You'll get a call back as soon as someone is available."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Ok, no problem. You'll get a call back as soon as someone is available."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Ok, no problem. You'll get a call back as soon as someone is available."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Entity suggestion": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Choose one of the following or provide your own"
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Choose one of the following or provide your own"
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Choose one of the following or provide your own"
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Fallback message": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Sorry, I am unable to understand your message. Could you please rephrase it?"
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Sorry, I am unable to understand your message. Could you please rephrase it?"
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Sorry, I am unable to understand your message. Could you please rephrase it?"
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Get Brochure": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"123"
-								],
-								"type": "response"
-							}
-						],
-						"whatsapp": [
-							{
-								"quick_reply": [
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
 									{
-										"quick_replies": [
-											{
-												"content_type": "text",
-												"payload": "Go to Website",
-												"title": "Go to Website"
-											},
-											{
-												"content_type": "text",
-												"payload": "TestDrive",
-												"title": "Book a test drive"
-											}
+										"text": [
+											"123"
 										],
-										"text": "Please download the attached brochure and then choose one of the following options"
+										"type": "response"
 									}
 								],
-								"type": "response"
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Go to Website",
+														"title": "Go to Website"
+													},
+													{
+														"content_type": "text",
+														"payload": "TestDrive",
+														"title": "Book a test drive"
+													}
+												],
+												"text": "Please download the attached brochure and then choose one of the following options"
+											}
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
-				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"123"
-					],
-					"type": "response"
-				},
-				{
-					"include": [
-						"whatsapp"
-					],
-					"quick_reply": [
-						{
-							"quick_replies": [
-								{
-									"content_type": "text",
-									"payload": "Go to Website",
-									"title": "Go to Website"
-								},
-								{
-									"content_type": "text",
-									"payload": "TestDrive",
-									"title": "Book a test drive"
-								}
-							],
-							"text": "Please download the attached brochure and then choose one of the following options"
 						}
-					],
-					"type": "response"
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"GoThere": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"123"
-								],
-								"type": "response"
-							}
-						],
-						"whatsapp": [
-							{
-								"quick_reply": [
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
 									{
-										"quick_replies": [
-											{
-												"content_type": "text",
-												"payload": "WhatsApp",
-												"title": "WhatsApp"
-											},
-											{
-												"content_type": "text",
-												"payload": "Goodbye",
-												"title": "No Thanks"
-											}
+										"text": [
+											"123"
 										],
-										"text": "Great, we'll put you in touch with the Oxford team now.\n\nWould you like to chat to them in this WhatsApp channel?"
+										"type": "response"
 									}
 								],
-								"type": "response"
+								"whatsapp": [
+									{
+										"quick_reply": [
+											{
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "WhatsApp",
+														"title": "WhatsApp"
+													},
+													{
+														"content_type": "text",
+														"payload": "Call Me",
+														"title": "Call Me"
+													}
+												],
+												"text": "Great, we'll put you in touch with the Oxford team now.\n\nWould you like to chat to them in this WhatsApp channel or shall we get them to call you back?"
+											}
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
-				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"123"
-					],
-					"type": "response"
-				},
-				{
-					"include": [
-						"whatsapp"
-					],
-					"quick_reply": [
-						{
-							"quick_replies": [
-								{
-									"content_type": "text",
-									"payload": "WhatsApp",
-									"title": "WhatsApp"
-								},
-								{
-									"content_type": "text",
-									"payload": "Goodbye",
-									"title": "No Thanks"
-								}
-							],
-							"text": "Great, we'll put you in touch with the Oxford team now.\n\nWould you like to chat to them in this WhatsApp channel?"
 						}
-					],
-					"type": "response"
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Goodbye": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Goodbye and take care!"
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Goodbye and take care!"
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Goodbye and take care!"
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Greetings": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Hello there."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Hello there."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Hello there."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Help message": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Hey, this is one of the sample intents which can be recognized. Intents are the user scenarios or flows which the bot can complete, while entities are the parameters which are required to complete an intent. Go ahead and configure a new intent to get started."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Hey, this is one of the sample intents which can be recognized. Intents are the user scenarios or flows which the bot can complete, while entities are the parameters which are required to complete an intent. Go ahead and configure a new intent to get started."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Hey, this is one of the sample intents which can be recognized. Intents are the user scenarios or flows which the bot can complete, while entities are the parameters which are required to complete an intent. Go ahead and configure a new intent to get started."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Limit": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. 4 Digits and No £ sign or commas."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. No £ sign or commas."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Thank you. Next, confirm your current credit limit. You can find it on a statement or in your online account. Just enter numbers. 4 Digits and No £ sign or commas."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Limit Rejected": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CHAT to continue this conversation with a human."
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CALL ME if you'd like someone to call you back now or CHAT to continue this SMS conversation with a human."
+										],
+										"type": "response"
+									}
 								],
-								"type": "response"
+								"whatsapp": [
+									{
+										"text": [
+											"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CHAT to continue this WhatsApp conversation with a human."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Unfortunately I can't increase your credit limit. However, I can offer you the option to talk to a human to discuss this further. Reply CHAT to continue this conversation with a human."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"LocationReceived": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"123"
-								],
-								"type": "response"
-							}
-						],
-						"whatsapp": [
-							{
-								"quick_reply": [
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
 									{
-										"quick_replies": [
+										"text": [
+											"123"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
 											{
-												"content_type": "text",
-												"payload": "Go There",
-												"title": "Go There"
-											},
-											{
-												"content_type": "text",
-												"payload": "Look Again",
-												"title": "Look Again"
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Go There",
+														"title": "Go There"
+													},
+													{
+														"content_type": "text",
+														"payload": "Look Again",
+														"title": "Look Again"
+													}
+												],
+												"text": "Okay, your nearest Webex EcoWagon dealer is in Oxford. \n\nWould you like to go there for your test drive or look for somewhere else?"
 											}
 										],
-										"text": "Okay, your nearest Webex EcoWagon dealer is in Oxford. \n\nWould you like to go there for your test drive or look for somewhere else?"
-									}
-								],
-								"type": "response"
-							},
-							{
-								"image": [
+										"type": "response"
+									},
 									{
-										"type": "image/png",
-										"url": "https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/DealershipPicture_14521213268415707.png"
+										"image": [
+											{
+												"type": "image/png",
+												"url": "https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/DealershipPicture_14521213268415707.png"
+											}
+										],
+										"type": "response"
 									}
-								],
-								"type": "response"
+								]
 							}
-						]
-					}
-				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"123"
-					],
-					"type": "response"
-				},
-				{
-					"include": [
-						"whatsapp"
-					],
-					"quick_reply": [
-						{
-							"quick_replies": [
-								{
-									"content_type": "text",
-									"payload": "Go There",
-									"title": "Go There"
-								},
-								{
-									"content_type": "text",
-									"payload": "Look Again",
-									"title": "Look Again"
-								}
-							],
-							"text": "Okay, your nearest Webex EcoWagon dealer is in Oxford. \n\nWould you like to go there for your test drive or look for somewhere else?"
 						}
-					],
-					"type": "response"
-				},
-				{
-					"image": [
-						{
-							"type": "image/png",
-							"url": "https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/DealershipPicture_14521213268415707.png"
-						}
-					],
-					"include": [
-						"whatsapp"
-					],
-					"type": "response"
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"New Car": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"123"
-								],
-								"type": "response"
-							}
-						],
-						"whatsapp": [
-							{
-								"quick_reply": [
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
 									{
-										"quick_replies": [
+										"text": [
+											"123"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
 											{
-												"content_type": "text",
-												"payload": "Show me the range",
-												"title": "Show me the range"
-											},
-											{
-												"content_type": "text",
-												"payload": "Book a test drive",
-												"title": "Book a test drive"
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Show me the range",
+														"title": "Show me the range"
+													},
+													{
+														"content_type": "text",
+														"payload": "Book a test drive",
+														"title": "Book a test drive"
+													}
+												],
+												"text": "We're pleased to bring you the greenest Webex EcoWagon ever.\n\nWhat shall we do now...?"
 											}
 										],
-										"text": "We're pleased to bring you the greenest Webex EcoWagon ever.\n\nWhat shall we do now...?"
-									}
-								],
-								"type": "response"
-							},
-							{
-								"image": [
+										"type": "response"
+									},
 									{
-										"type": "image/png",
-										"url": "https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/EcoWagon_6427882536987818.png"
+										"image": [
+											{
+												"type": "image/png",
+												"url": "https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/EcoWagon_6427882536987818.png"
+											}
+										],
+										"type": "response"
 									}
-								],
-								"type": "response"
+								]
 							}
-						]
-					}
-				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"123"
-					],
-					"type": "response"
-				},
-				{
-					"include": [
-						"whatsapp"
-					],
-					"quick_reply": [
-						{
-							"quick_replies": [
-								{
-									"content_type": "text",
-									"payload": "Show me the range",
-									"title": "Show me the range"
-								},
-								{
-									"content_type": "text",
-									"payload": "Book a test drive",
-									"title": "Book a test drive"
-								}
-							],
-							"text": "We're pleased to bring you the greenest Webex EcoWagon ever.\n\nWhat shall we do now...?"
 						}
-					],
-					"type": "response"
-				},
-				{
-					"image": [
-						{
-							"type": "image/png",
-							"url": "https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/EcoWagon_6427882536987818.png"
-						}
-					],
-					"include": [
-						"whatsapp"
-					],
-					"type": "response"
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Not helpful": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Sorry,  I hear that wasn't able to help you. Please try asking a different question."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Sorry,  I hear that wasn't able to help you. Please try asking a different question."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Sorry,  I hear that wasn't able to help you. Please try asking a different question."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Partial match": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Sorry, I was unable to understand your query accurately. Could you select which intent you were referring to?"
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Sorry, I was unable to understand your query accurately. Could you select which intent you were referring to?"
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Sorry, I was unable to understand your query accurately. Could you select which intent you were referring to?"
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Postcode": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Got that. Finally, I just need you to confirm the 5 digit postcode of your credit card's billing address."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Got that. Finally, I just need you to confirm the postcode of your credit card's billing address."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Got that. Finally, I just need you to confirm the 5 digit postcode of your credit card's billing address."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Response suggestion": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"You can also see the results for"
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"You can also see the results for"
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"You can also see the results for"
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"SecurityCheck": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"That's great. You've passed the security check. I'm now going to see what I can do about your credit limit. This can take up to 2 minutes, so hang on and I'll get back to you. . ."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"That's great. You've passed the security check. I'm now going to see what I can do about your credit limit. This can take up to 2 minutes, so hang on and I'll get back to you. . ."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"That's great. You've passed the security check. I'm now going to see what I can do about your credit limit. This can take up to 2 minutes, so hang on and I'll get back to you. . ."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"ShowRange": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"123"
-								],
-								"type": "response"
-							}
-						],
-						"whatsapp": [
-							{
-								"quick_reply": [
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
 									{
-										"quick_replies": [
+										"text": [
+											"123"
+										],
+										"type": "response"
+									}
+								],
+								"whatsapp": [
+									{
+										"quick_reply": [
 											{
-												"content_type": "text",
-												"payload": "Get Brochure",
-												"title": "Get Brochure"
-											},
-											{
-												"content_type": "text",
-												"payload": "Go to Website",
-												"title": "Go to Website"
-											},
-											{
-												"content_type": "text",
-												"payload": "Book a test drive",
-												"title": "Book a test drive"
+												"quick_replies": [
+													{
+														"content_type": "text",
+														"payload": "Get Brochure",
+														"title": "Get Brochure"
+													},
+													{
+														"content_type": "text",
+														"payload": "Go to Website",
+														"title": "Go to Website"
+													},
+													{
+														"content_type": "text",
+														"payload": "Book a test drive",
+														"title": "Book a test drive"
+													}
+												],
+												"text": "Ok.  You can download a brochure or go to the EcoWagon website to find our more about the range."
 											}
 										],
-										"text": "Ok.  You can download a brochure or go to the EcoWagon website to find our more about the range."
-									}
-								],
-								"type": "response"
-							},
-							{
-								"image": [
+										"type": "response"
+									},
 									{
-										"type": "image/png",
-										"url": "https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/EcoWagon_6427882536987818.png"
+										"image": [
+											{
+												"type": "image/png",
+												"url": "https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/EcoWagon_6427882536987818.png"
+											}
+										],
+										"type": "response"
 									}
-								],
-								"type": "response"
+								]
 							}
-						]
-					}
-				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"123"
-					],
-					"type": "response"
-				},
-				{
-					"include": [
-						"whatsapp"
-					],
-					"quick_reply": [
-						{
-							"quick_replies": [
-								{
-									"content_type": "text",
-									"payload": "Get Brochure",
-									"title": "Get Brochure"
-								},
-								{
-									"content_type": "text",
-									"payload": "Go to Website",
-									"title": "Go to Website"
-								},
-								{
-									"content_type": "text",
-									"payload": "Book a test drive",
-									"title": "Book a test drive"
-								}
-							],
-							"text": "Ok.  You can download a brochure or go to the EcoWagon website to find our more about the range."
 						}
-					],
-					"type": "response"
-				},
-				{
-					"image": [
-						{
-							"type": "image/png",
-							"url": "https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/EcoWagon_6427882536987818.png"
-						}
-					],
-					"include": [
-						"whatsapp"
-					],
-					"type": "response"
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"TestDrive": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"123"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"123"
+										],
+										"type": "response"
+									}
 								],
-								"type": "response"
+								"whatsapp": [
+									{
+										"text": [
+											"We'd love to get you in a Webex EcoWagon as soon as possible.\n\nPlease share your location using the reply \"+\" button or enter your postcode so we can find your local dealer."
+										],
+										"type": "response"
+									}
+								]
 							}
-						],
-						"whatsapp": [
-							{
-								"text": [
-									"We'd love to get you in a Webex EcoWagon as soon as possible.\n\nPlease share your location using the reply \"+\" button or enter your postcode so we can find your local dealer."
-								],
-								"type": "response"
-							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"123"
-					],
-					"type": "response"
-				},
-				{
-					"include": [
-						"whatsapp"
-					],
-					"text": [
-						"We'd love to get you in a Webex EcoWagon as soon as possible.\n\nPlease share your location using the reply \"+\" button or enter your postcode so we can find your local dealer."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Thank you": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"You're welcome, take care!"
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"You're welcome, take care!"
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"You're welcome, take care!"
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		},
 		"Welcome message": {
 			"__ui_error_count": 0,
-			"logic": "",
-			"paths": {
-				"configurable": [],
-				"default": {
-					"__ui_error_count": 0,
-					"actions": {
-						"web": [
-							{
-								"text": [
-									"Hello, I am a new Task bot. I can help you complete tasks by defining intents which you want the user to complete."
-								],
-								"type": "response"
+			"variants": {
+				"en": {
+					"logic": "",
+					"paths": {
+						"configurable": [],
+						"default": {
+							"__ui_error_count": 0,
+							"actions": {
+								"web": [
+									{
+										"text": [
+											"Hello, I am a new Task bot. I can help you complete tasks by defining intents which you want the user to complete."
+										],
+										"type": "response"
+									}
+								]
 							}
-						]
-					}
+						}
+					},
+					"response_type": "paths",
+					"send_response_in_default_language": false
 				}
-			},
-			"response": [
-				{
-					"include": [
-						"web"
-					],
-					"text": [
-						"Hello, I am a new Task bot. I can help you complete tasks by defining intents which you want the user to complete."
-					],
-					"type": "response"
-				}
-			],
-			"response_type": "paths"
+			}
 		}
 	}
 }
